@@ -1,0 +1,1303 @@
+customer_sk,customer_id,customer_name,email,segment,country_code,city,signup_date,valid_from,valid_to,is_current
+1,C00001,Omar Nguyen,omar.1@example.com,consumer,DE,Hamburg,2023-05-02,1900-01-01,9999-12-31,Y
+2,C00002,Karel Okafor,karel.2@example.com,smb,BE,Ghent,2023-10-18,1900-01-01,9999-12-31,Y
+3,C00003,Quinn Silva,quinn.3@example.com,smb,DE,Hamburg,2022-07-21,1900-01-01,9999-12-31,Y
+4,C00004,Nadia Smit,nadia.4@example.com,smb,NL,Amsterdam,2024-07-06,1900-01-01,9999-12-31,Y
+5,C00005,Vera Rossi,vera.5@example.com,smb,DE,Berlin,2025-01-28,1900-01-01,9999-12-31,Y
+6,C00006,Yara Peeters,,consumer,NL,Rotterdam,2025-10-16,1900-01-01,9999-12-31,Y
+7,C00007,Nadia García,nadia.7@example.com,consumer,BE,Ghent,2023-01-17,1900-01-01,9999-12-31,Y
+8,C00008,Wout Haddad,wout.8@example.com,consumer,BE,Brussels,2023-10-26,1900-01-01,9999-12-31,Y
+9,C00009,Julia Okafor,julia.9@example.com,consumer,NL,,2026-04-05,1900-01-01,9999-12-31,Y
+10,C00010,Quinn Novak,quinn.10@example.com,consumer,VN,Ho Chi Minh City,2025-11-11,1900-01-01,9999-12-31,Y
+11,C00011,Mateo Smit,mateo.11@example.com,consumer,NL,Rotterdam,2025-06-21,1900-01-01,9999-12-31,Y
+12,C00012,Wout Rossi,wout.12@example.com,smb,FR,Lyon,2022-10-23,1900-01-01,9999-12-31,Y
+13,C00013,Anna Visser,anna.13@example.com,consumer,VN,Ha Noi,2022-08-16,1900-01-01,9999-12-31,Y
+14,C00014,Mateo Jansen,mateo.14@example.com,enterprise,DE,Hamburg,2025-09-12,1900-01-01,9999-12-31,Y
+15,C00015,Quinn Larsen,quinn.15@example.com,consumer,BE,Brussels,2023-06-06,1900-01-01,9999-12-31,Y
+16,C00016,Rosa de Vries,rosa.16@example.com,consumer,DE,Berlin,2026-01-11,1900-01-01,9999-12-31,Y
+17,C00017,Rosa Nguyen,rosa.17@example.com,consumer,VN,Ho Chi Minh City,2025-07-14,1900-01-01,9999-12-31,Y
+18,C00018,Bram Müller,bram.18@example.com,consumer,BE,Brussels,2022-12-09,1900-01-01,9999-12-31,Y
+19,C00019,Guido de Vries,guido.19@example.com,consumer,BE,Brussels,2024-10-12,1900-01-01,2025-09-21,N
+20,C00019,Guido de Vries,guido.19@example.com,enterprise,BE,Brussels,2024-10-12,2025-09-21,9999-12-31,Y
+21,C00020,Chen Peeters,chen.20@example.com,enterprise,BE,Brussels,2024-05-07,1900-01-01,9999-12-31,Y
+22,C00021,Rosa Okafor,rosa.21@example.com,consumer,FR,,2023-03-16,1900-01-01,9999-12-31,Y
+23,C00022,Karel Kowalski,karel.22@example.com,consumer,FR,Lyon,2025-10-25,1900-01-01,9999-12-31,Y
+24,C00023,Hana Jansen,hana.23@example.com,enterprise,FR,Paris,2024-05-31,1900-01-01,9999-12-31,Y
+25,C00024,Nadia Bakker,nadia.24@example.com,consumer,VN,Ho Chi Minh City,2022-09-14,1900-01-01,9999-12-31,Y
+26,C00025,Mateo de Vries,mateo.25@example.com,consumer,BE,Ghent,2024-05-14,1900-01-01,2025-10-27,N
+27,C00025,Mateo de Vries,mateo.25@example.com,smb,BE,Ghent,2024-05-14,2025-10-27,9999-12-31,Y
+28,C00026,Pia Larsen,pia.26@example.com,consumer,NL,Utrecht,2024-11-19,1900-01-01,9999-12-31,Y
+29,C00027,Rosa Silva,rosa.27@example.com,smb,BE,Ghent,2025-07-23,1900-01-01,9999-12-31,Y
+30,C00028,Umut Bakker,umut.28@example.com,consumer,VN,Ho Chi Minh City,2025-09-06,1900-01-01,9999-12-31,Y
+31,C00029,Omar Silva,omar.29@example.com,consumer,BE,Ghent,2022-12-08,1900-01-01,9999-12-31,Y
+32,C00030,Quinn García,quinn.30@example.com,smb,FR,Paris,2025-11-24,1900-01-01,9999-12-31,Y
+33,C00031,Quinn Tran,quinn.31@example.com,smb,VN,Ho Chi Minh City,2023-06-04,1900-01-01,9999-12-31,Y
+34,C00032,Chen Peeters,chen.32@example.com,enterprise,DE,Hamburg,2026-03-27,1900-01-01,9999-12-31,Y
+35,C00033,Guido Novak,guido.33@example.com,smb,VN,Ho Chi Minh City,2024-12-07,1900-01-01,9999-12-31,Y
+36,C00034,Vera Nguyen,vera.34@example.com,consumer,FR,Paris,2025-03-17,1900-01-01,9999-12-31,Y
+37,C00035,Ivo Smit,ivo.35@example.com,consumer,NL,Amsterdam,2024-12-08,1900-01-01,2026-02-21,N
+38,C00035,Ivo Smit,ivo.35@example.com,smb,NL,Amsterdam,2024-12-08,2026-02-21,9999-12-31,Y
+39,C00036,Pia Okafor,pia.36@example.com,enterprise,NL,Rotterdam,2025-04-28,1900-01-01,9999-12-31,Y
+40,C00037,Vera Kowalski,vera.37@example.com,consumer,BE,Brussels,2024-06-29,1900-01-01,2025-03-17,N
+41,C00037,Vera Kowalski,vera.37@example.com,smb,BE,Brussels,2024-06-29,2025-03-17,9999-12-31,Y
+42,C00038,Quinn Nguyen,quinn.38@example.com,consumer,VN,Ho Chi Minh City,2025-08-02,1900-01-01,9999-12-31,Y
+43,C00039,Pia Haddad,pia.39@example.com,consumer,DE,,2024-08-16,1900-01-01,2026-03-07,N
+44,C00039,Pia Haddad,pia.39@example.com,enterprise,DE,,2024-08-16,2026-03-07,9999-12-31,Y
+45,C00040,Hana Bakker,hana.40@example.com,smb,NL,Rotterdam,2022-12-10,1900-01-01,9999-12-31,Y
+46,C00041,Vera Bakker,vera.41@example.com,enterprise,BE,Ghent,2023-04-01,1900-01-01,2025-07-21,N
+47,C00041,Vera Bakker,vera.41@example.com,consumer,BE,Ghent,2023-04-01,2025-07-21,9999-12-31,Y
+48,C00042,Mateo de Vries,mateo.42@example.com,consumer,BE,Brussels,2025-05-28,1900-01-01,9999-12-31,Y
+49,C00043,Karel Silva,karel.43@example.com,consumer,VN,Ha Noi,2025-08-06,1900-01-01,9999-12-31,Y
+50,C00044,Linh Okafor,linh.44@example.com,consumer,DE,Hamburg,2023-11-05,1900-01-01,9999-12-31,Y
+51,C00045,Linh García,linh.45@example.com,consumer,NL,Utrecht,2025-10-30,1900-01-01,9999-12-31,Y
+52,C00046,Yara Müller,yara.46@example.com,smb,NL,Utrecht,2025-10-24,1900-01-01,9999-12-31,Y
+53,C00047,Guido Tran,guido.47@example.com,consumer,NL,,2025-06-01,1900-01-01,9999-12-31,Y
+54,C00048,Mateo Jansen,mateo.48@example.com,consumer,NL,Rotterdam,2024-04-03,1900-01-01,9999-12-31,Y
+55,C00049,Anna Müller,anna.49@example.com,consumer,BE,Ghent,2025-07-15,1900-01-01,9999-12-31,Y
+56,C00050,Wout Nguyen,wout.50@example.com,consumer,DE,Hamburg,2025-04-28,1900-01-01,9999-12-31,Y
+57,C00051,Fatima Visser,fatima.51@example.com,enterprise,FR,Lyon,2022-11-17,1900-01-01,9999-12-31,Y
+58,C00052,Karel Nguyen,karel.52@example.com,consumer,VN,Ha Noi,2024-10-08,1900-01-01,2025-11-19,N
+59,C00052,Karel Nguyen,karel.52@example.com,enterprise,VN,Ha Noi,2024-10-08,2025-11-19,9999-12-31,Y
+60,C00053,Sven Okafor,sven.53@example.com,consumer,BE,Ghent,2023-07-10,1900-01-01,9999-12-31,Y
+61,C00054,Julia Kowalski,julia.54@example.com,consumer,FR,Lyon,2024-01-03,1900-01-01,9999-12-31,Y
+62,C00055,Emre Novak,emre.55@example.com,consumer,DE,Hamburg,2025-10-25,1900-01-01,2025-11-24,N
+63,C00055,Emre Novak,emre.55@example.com,enterprise,DE,Hamburg,2025-10-25,2025-11-24,9999-12-31,Y
+64,C00056,Anna Nguyen,anna.56@example.com,smb,DE,Hamburg,2023-07-07,1900-01-01,9999-12-31,Y
+65,C00057,Hana Rossi,hana.57@example.com,consumer,FR,Paris,2023-03-12,1900-01-01,9999-12-31,Y
+66,C00058,Tessa Jansen,tessa.58@example.com,consumer,BE,Brussels,2025-04-07,1900-01-01,9999-12-31,Y
+67,C00059,Chen Larsen,chen.59@example.com,consumer,DE,Hamburg,2025-01-25,1900-01-01,9999-12-31,Y
+68,C00060,Tessa de Vries,tessa.60@example.com,enterprise,DE,Berlin,2023-04-21,1900-01-01,9999-12-31,Y
+69,C00061,Fatima Silva,fatima.61@example.com,consumer,VN,Ho Chi Minh City,2024-12-31,1900-01-01,9999-12-31,Y
+70,C00062,Quinn Haddad,quinn.62@example.com,consumer,FR,Lyon,2025-06-06,1900-01-01,9999-12-31,Y
+71,C00063,Omar Rossi,omar.63@example.com,consumer,DE,Berlin,2025-05-26,1900-01-01,2026-01-05,N
+72,C00063,Omar Rossi,omar.63@example.com,smb,DE,Berlin,2025-05-26,2026-01-05,9999-12-31,Y
+73,C00064,Diana Silva,diana.64@example.com,consumer,FR,Paris,2025-01-06,1900-01-01,9999-12-31,Y
+74,C00065,Anna Visser,anna.65@example.com,consumer,VN,Ho Chi Minh City,2025-04-18,1900-01-01,9999-12-31,Y
+75,C00066,Diana Smit,,consumer,FR,Paris,2026-03-24,1900-01-01,9999-12-31,Y
+76,C00067,Sven Haddad,sven.67@example.com,consumer,NL,Amsterdam,2023-05-24,1900-01-01,9999-12-31,Y
+77,C00068,Emre Dubois,emre.68@example.com,consumer,BE,Ghent,2024-07-23,1900-01-01,9999-12-31,Y
+78,C00069,Omar Tran,omar.69@example.com,consumer,BE,Brussels,2026-01-06,1900-01-01,9999-12-31,Y
+79,C00070,Hana Müller,hana.70@example.com,consumer,NL,Amsterdam,2023-01-22,1900-01-01,9999-12-31,Y
+80,C00071,Pia Visser,pia.71@example.com,consumer,FR,Lyon,2024-09-06,1900-01-01,9999-12-31,Y
+81,C00072,Wout Smit,wout.72@example.com,consumer,BE,Brussels,2023-11-17,1900-01-01,9999-12-31,Y
+82,C00073,Karel Tran,karel.73@example.com,consumer,NL,Utrecht,2025-10-25,1900-01-01,9999-12-31,Y
+83,C00074,Sven Jansen,sven.74@example.com,consumer,NL,Utrecht,2023-04-24,1900-01-01,9999-12-31,Y
+84,C00075,Rosa García,rosa.75@example.com,consumer,BE,Ghent,2025-09-01,1900-01-01,9999-12-31,Y
+85,C00076,Bram Dubois,bram.76@example.com,enterprise,FR,Paris,2024-10-15,1900-01-01,9999-12-31,Y
+86,C00077,Fatima Novak,fatima.77@example.com,consumer,NL,Amsterdam,2022-10-05,1900-01-01,9999-12-31,Y
+87,C00078,Emre Jansen,emre.78@example.com,consumer,VN,Ha Noi,2023-11-02,1900-01-01,9999-12-31,Y
+88,C00079,Karel Haddad,karel.79@example.com,enterprise,NL,Rotterdam,2023-03-21,1900-01-01,9999-12-31,Y
+89,C00080,Umut Smit,umut.80@example.com,smb,FR,Paris,2023-02-22,1900-01-01,9999-12-31,Y
+90,C00081,Pia Dubois,pia.81@example.com,consumer,VN,Ha Noi,2026-01-18,1900-01-01,9999-12-31,Y
+91,C00082,Nadia Haddad,nadia.82@example.com,consumer,VN,Ho Chi Minh City,2025-06-20,1900-01-01,9999-12-31,Y
+92,C00083,Rosa Kowalski,rosa.83@example.com,consumer,VN,Ha Noi,2023-06-12,1900-01-01,9999-12-31,Y
+93,C00084,Pia Silva,pia.84@example.com,enterprise,DE,Hamburg,2025-11-20,1900-01-01,9999-12-31,Y
+94,C00085,Anna Smit,anna.85@example.com,consumer,VN,Ha Noi,2024-07-12,1900-01-01,9999-12-31,Y
+95,C00086,Rosa García,rosa.86@example.com,consumer,BE,Brussels,2025-01-13,1900-01-01,9999-12-31,Y
+96,C00087,Vera Haddad,vera.87@example.com,consumer,NL,Rotterdam,2024-12-28,1900-01-01,9999-12-31,Y
+97,C00088,Quinn Larsen,quinn.88@example.com,consumer,FR,Paris,2024-09-15,1900-01-01,9999-12-31,Y
+98,C00089,Umut Novak,umut.89@example.com,consumer,FR,Paris,2024-12-28,1900-01-01,9999-12-31,Y
+99,C00090,Bram Tran,bram.90@example.com,consumer,NL,Amsterdam,2025-08-09,1900-01-01,9999-12-31,Y
+100,C00091,Yara Larsen,yara.91@example.com,consumer,NL,Rotterdam,2026-02-17,1900-01-01,9999-12-31,Y
+101,C00092,Vera Bakker,vera.92@example.com,smb,BE,Ghent,2024-06-01,1900-01-01,9999-12-31,Y
+102,C00093,Rosa Müller,rosa.93@example.com,consumer,BE,Brussels,2025-03-22,1900-01-01,9999-12-31,Y
+103,C00094,Anna Haddad,anna.94@example.com,smb,DE,Hamburg,2026-03-20,1900-01-01,9999-12-31,Y
+104,C00095,Emre Haddad,emre.95@example.com,consumer,VN,Ho Chi Minh City,2025-11-10,1900-01-01,9999-12-31,Y
+105,C00096,Bram Haddad,bram.96@example.com,consumer,FR,Lyon,2023-07-03,1900-01-01,9999-12-31,Y
+106,C00097,Guido Novak,guido.97@example.com,consumer,DE,Berlin,2024-07-09,1900-01-01,9999-12-31,Y
+107,C00098,Wout Bakker,wout.98@example.com,consumer,FR,Paris,2024-10-06,1900-01-01,2025-05-28,N
+108,C00098,Wout Bakker,wout.98@example.com,enterprise,FR,Paris,2024-10-06,2025-05-28,9999-12-31,Y
+109,C00099,Rosa Bakker,rosa.99@example.com,consumer,FR,Lyon,2023-01-08,1900-01-01,9999-12-31,Y
+110,C00100,Guido Dubois,guido.100@example.com,consumer,NL,Utrecht,2025-03-30,1900-01-01,9999-12-31,Y
+111,C00101,Wout Dubois,wout.101@example.com,consumer,DE,Berlin,2023-11-12,1900-01-01,9999-12-31,Y
+112,C00102,Ivo Silva,ivo.102@example.com,consumer,BE,Brussels,2023-09-21,1900-01-01,9999-12-31,Y
+113,C00103,Diana Haddad,diana.103@example.com,consumer,VN,Ho Chi Minh City,2025-04-02,1900-01-01,2025-06-14,N
+114,C00103,Diana Haddad,diana.103@example.com,smb,VN,Ho Chi Minh City,2025-04-02,2025-06-14,9999-12-31,Y
+115,C00104,Anna Kowalski,anna.104@example.com,consumer,BE,Ghent,2026-02-07,1900-01-01,9999-12-31,Y
+116,C00105,Karel Müller,karel.105@example.com,consumer,FR,,2023-12-25,1900-01-01,9999-12-31,Y
+117,C00106,Wout Jansen,wout.106@example.com,consumer,FR,Lyon,2022-08-08,1900-01-01,9999-12-31,Y
+118,C00107,Quinn Müller,quinn.107@example.com,consumer,DE,Berlin,2025-07-24,1900-01-01,9999-12-31,Y
+119,C00108,Vera Smit,vera.108@example.com,smb,DE,Berlin,2025-11-22,1900-01-01,9999-12-31,Y
+120,C00109,Chen Novak,chen.109@example.com,consumer,BE,Brussels,2024-07-30,1900-01-01,9999-12-31,Y
+121,C00110,Sven Rossi,sven.110@example.com,consumer,NL,Utrecht,2026-05-04,1900-01-01,9999-12-31,Y
+122,C00111,Chen Okafor,chen.111@example.com,smb,BE,Brussels,2025-10-31,1900-01-01,9999-12-31,Y
+123,C00112,Julia Silva,julia.112@example.com,consumer,DE,Berlin,2024-10-13,1900-01-01,9999-12-31,Y
+124,C00113,Guido Müller,guido.113@example.com,smb,FR,Lyon,2023-11-24,1900-01-01,9999-12-31,Y
+125,C00114,Wout Kowalski,wout.114@example.com,smb,NL,Utrecht,2025-09-02,1900-01-01,9999-12-31,Y
+126,C00115,Ivo Larsen,ivo.115@example.com,consumer,BE,Brussels,2025-08-25,1900-01-01,2025-09-24,N
+127,C00115,Ivo Larsen,ivo.115@example.com,smb,BE,Brussels,2025-08-25,2025-09-24,9999-12-31,Y
+128,C00116,Tessa Okafor,tessa.116@example.com,consumer,NL,Utrecht,2024-04-05,1900-01-01,9999-12-31,Y
+129,C00117,Linh Novak,linh.117@example.com,smb,DE,Hamburg,2025-02-15,1900-01-01,9999-12-31,Y
+130,C00118,Wout Tran,wout.118@example.com,consumer,NL,Amsterdam,2025-03-12,1900-01-01,9999-12-31,Y
+131,C00119,Vera Peeters,vera.119@example.com,smb,FR,Lyon,2025-08-26,1900-01-01,9999-12-31,Y
+132,C00120,Anna Haddad,anna.120@example.com,smb,FR,Paris,2023-04-11,1900-01-01,9999-12-31,Y
+133,C00121,Sven Visser,sven.121@example.com,consumer,FR,Paris,2025-07-02,1900-01-01,9999-12-31,Y
+134,C00122,Anna Visser,anna.122@example.com,consumer,NL,Rotterdam,2022-11-02,1900-01-01,9999-12-31,Y
+135,C00123,Quinn García,quinn.123@example.com,consumer,DE,Berlin,2024-08-19,1900-01-01,9999-12-31,Y
+136,C00124,Sven Bakker,sven.124@example.com,consumer,DE,Hamburg,2025-08-28,1900-01-01,9999-12-31,Y
+137,C00125,Tessa Jansen,tessa.125@example.com,smb,NL,Amsterdam,2025-02-28,1900-01-01,9999-12-31,Y
+138,C00126,Nadia Visser,nadia.126@example.com,consumer,FR,Lyon,2026-04-26,1900-01-01,9999-12-31,Y
+139,C00127,Ivo Novak,ivo.127@example.com,consumer,VN,Ho Chi Minh City,2025-04-09,1900-01-01,9999-12-31,Y
+140,C00128,Quinn Haddad,quinn.128@example.com,consumer,DE,Hamburg,2022-10-20,1900-01-01,2025-10-19,N
+141,C00128,Quinn Haddad,quinn.128@example.com,enterprise,DE,Hamburg,2022-10-20,2025-10-19,9999-12-31,Y
+142,C00129,Wout Bakker,wout.129@example.com,consumer,FR,Paris,2025-07-18,1900-01-01,2025-08-17,N
+143,C00129,Wout Bakker,wout.129@example.com,enterprise,FR,Paris,2025-07-18,2025-08-17,9999-12-31,Y
+144,C00130,Anna Tran,anna.130@example.com,consumer,FR,,2025-01-27,1900-01-01,9999-12-31,Y
+145,C00131,Rosa Visser,rosa.131@example.com,consumer,VN,Ho Chi Minh City,2025-08-01,1900-01-01,9999-12-31,Y
+146,C00132,Sven Okafor,sven.132@example.com,consumer,BE,Ghent,2023-07-04,1900-01-01,9999-12-31,Y
+147,C00133,Omar Haddad,omar.133@example.com,smb,BE,Ghent,2024-04-09,1900-01-01,2025-04-30,N
+148,C00133,Omar Haddad,omar.133@example.com,consumer,BE,Ghent,2024-04-09,2025-04-30,9999-12-31,Y
+149,C00134,Omar de Vries,omar.134@example.com,consumer,NL,Utrecht,2025-02-02,1900-01-01,9999-12-31,Y
+150,C00135,Umut Bakker,umut.135@example.com,consumer,BE,Ghent,2022-11-28,1900-01-01,2025-06-19,N
+151,C00135,Umut Bakker,umut.135@example.com,smb,BE,Ghent,2022-11-28,2025-06-19,9999-12-31,Y
+152,C00136,Guido Visser,guido.136@example.com,consumer,VN,Ha Noi,2025-05-10,1900-01-01,9999-12-31,Y
+153,C00137,Umut Visser,umut.137@example.com,consumer,NL,Utrecht,2026-01-16,1900-01-01,9999-12-31,Y
+154,C00138,Rosa Okafor,rosa.138@example.com,consumer,NL,Amsterdam,2023-05-07,1900-01-01,9999-12-31,Y
+155,C00139,Anna Peeters,anna.139@example.com,consumer,VN,Ho Chi Minh City,2023-03-26,1900-01-01,2025-04-19,N
+156,C00139,Anna Peeters,anna.139@example.com,enterprise,VN,Ho Chi Minh City,2023-03-26,2025-04-19,9999-12-31,Y
+157,C00140,Guido de Vries,guido.140@example.com,consumer,DE,Hamburg,2025-01-23,1900-01-01,9999-12-31,Y
+158,C00141,Pia Visser,pia.141@example.com,smb,NL,Utrecht,2025-08-16,1900-01-01,2026-01-19,N
+159,C00141,Pia Visser,pia.141@example.com,consumer,NL,Utrecht,2025-08-16,2026-01-19,9999-12-31,Y
+160,C00142,Chen Okafor,chen.142@example.com,consumer,FR,Paris,2025-09-29,1900-01-01,2026-01-04,N
+161,C00142,Chen Okafor,chen.142@example.com,smb,FR,Paris,2025-09-29,2026-01-04,9999-12-31,Y
+162,C00143,Hana Tran,hana.143@example.com,smb,BE,Brussels,2025-07-10,1900-01-01,9999-12-31,Y
+163,C00144,Tessa Smit,tessa.144@example.com,consumer,DE,Hamburg,2025-04-12,1900-01-01,9999-12-31,Y
+164,C00145,Sven Müller,,consumer,NL,Amsterdam,2024-04-19,1900-01-01,2025-09-26,N
+165,C00145,Sven Müller,,smb,NL,Amsterdam,2024-04-19,2025-09-26,9999-12-31,Y
+166,C00146,Ivo Müller,ivo.146@example.com,consumer,DE,Berlin,2024-09-22,1900-01-01,9999-12-31,Y
+167,C00147,Julia Larsen,julia.147@example.com,enterprise,DE,Hamburg,2025-12-19,1900-01-01,9999-12-31,Y
+168,C00148,Linh García,linh.148@example.com,smb,FR,Paris,2023-06-17,1900-01-01,9999-12-31,Y
+169,C00149,Tessa Müller,tessa.149@example.com,consumer,BE,Brussels,2022-12-09,1900-01-01,9999-12-31,Y
+170,C00150,Yara Nguyen,yara.150@example.com,enterprise,VN,Ha Noi,2024-11-02,1900-01-01,9999-12-31,Y
+171,C00151,Karel Visser,karel.151@example.com,consumer,BE,Ghent,2026-02-10,1900-01-01,9999-12-31,Y
+172,C00152,Bram Dubois,bram.152@example.com,consumer,VN,Ho Chi Minh City,2024-04-01,1900-01-01,9999-12-31,Y
+173,C00153,Julia Kowalski,julia.153@example.com,consumer,NL,Rotterdam,2023-03-14,1900-01-01,9999-12-31,Y
+174,C00154,Pia Larsen,pia.154@example.com,consumer,DE,Berlin,2023-02-18,1900-01-01,9999-12-31,Y
+175,C00155,Pia Peeters,pia.155@example.com,smb,FR,Paris,2023-07-11,1900-01-01,9999-12-31,Y
+176,C00156,Rosa Visser,rosa.156@example.com,smb,BE,Ghent,2023-06-30,1900-01-01,9999-12-31,Y
+177,C00157,Karel Silva,karel.157@example.com,consumer,NL,Utrecht,2025-03-12,1900-01-01,9999-12-31,Y
+178,C00158,Vera Silva,vera.158@example.com,consumer,BE,Brussels,2025-08-17,1900-01-01,9999-12-31,Y
+179,C00159,Mateo Jansen,mateo.159@example.com,consumer,VN,Ha Noi,2023-02-18,1900-01-01,9999-12-31,Y
+180,C00160,Wout Okafor,wout.160@example.com,consumer,VN,Ho Chi Minh City,2025-05-28,1900-01-01,9999-12-31,Y
+181,C00161,Julia Jansen,,smb,VN,Ha Noi,2025-06-18,1900-01-01,9999-12-31,Y
+182,C00162,Pia Peeters,pia.162@example.com,consumer,NL,Utrecht,2025-02-17,1900-01-01,9999-12-31,Y
+183,C00163,Ivo Bakker,ivo.163@example.com,consumer,DE,Berlin,2023-06-25,1900-01-01,9999-12-31,Y
+184,C00164,Pia de Vries,pia.164@example.com,consumer,NL,Amsterdam,2023-11-14,1900-01-01,9999-12-31,Y
+185,C00165,Umut Smit,umut.165@example.com,enterprise,NL,Amsterdam,2024-05-09,1900-01-01,9999-12-31,Y
+186,C00166,Omar Larsen,omar.166@example.com,smb,FR,Lyon,2023-05-16,1900-01-01,9999-12-31,Y
+187,C00167,Rosa Okafor,rosa.167@example.com,consumer,VN,Ha Noi,2022-08-22,1900-01-01,2026-04-19,N
+188,C00167,Rosa Okafor,rosa.167@example.com,smb,VN,Ha Noi,2022-08-22,2026-04-19,9999-12-31,Y
+189,C00168,Nadia Peeters,nadia.168@example.com,consumer,DE,Berlin,2024-12-25,1900-01-01,9999-12-31,Y
+190,C00169,Julia Dubois,julia.169@example.com,consumer,FR,Lyon,2023-08-14,1900-01-01,2025-03-25,N
+191,C00169,Julia Dubois,julia.169@example.com,smb,FR,Lyon,2023-08-14,2025-03-25,9999-12-31,Y
+192,C00170,Bram Tran,bram.170@example.com,consumer,NL,Utrecht,2024-03-26,1900-01-01,9999-12-31,Y
+193,C00171,Karel Dubois,karel.171@example.com,consumer,DE,Berlin,2025-02-28,1900-01-01,9999-12-31,Y
+194,C00172,Nadia García,nadia.172@example.com,smb,BE,Brussels,2023-07-25,1900-01-01,2026-01-27,N
+195,C00172,Nadia García,nadia.172@example.com,consumer,BE,Brussels,2023-07-25,2026-01-27,9999-12-31,Y
+196,C00173,Mateo Silva,mateo.173@example.com,consumer,VN,Ha Noi,2024-04-29,1900-01-01,2026-03-04,N
+197,C00173,Mateo Silva,mateo.173@example.com,enterprise,VN,Ha Noi,2024-04-29,2026-03-04,9999-12-31,Y
+198,C00174,Pia Peeters,pia.174@example.com,consumer,NL,Rotterdam,2023-11-27,1900-01-01,9999-12-31,Y
+199,C00175,Ivo Bakker,ivo.175@example.com,consumer,DE,Berlin,2025-09-10,1900-01-01,9999-12-31,Y
+200,C00176,Guido Jansen,guido.176@example.com,consumer,DE,Berlin,2025-02-19,1900-01-01,9999-12-31,Y
+201,C00177,Hana Kowalski,hana.177@example.com,consumer,VN,,2022-08-09,1900-01-01,9999-12-31,Y
+202,C00178,Karel Larsen,karel.178@example.com,smb,BE,Ghent,2023-02-26,1900-01-01,9999-12-31,Y
+203,C00179,Pia Kowalski,pia.179@example.com,smb,NL,Utrecht,2023-09-06,1900-01-01,9999-12-31,Y
+204,C00180,Hana Tran,hana.180@example.com,consumer,FR,Lyon,2023-01-04,1900-01-01,9999-12-31,Y
+205,C00181,Yara Okafor,yara.181@example.com,consumer,FR,Paris,2022-08-25,1900-01-01,9999-12-31,Y
+206,C00182,Chen Dubois,chen.182@example.com,enterprise,DE,Berlin,2023-06-10,1900-01-01,9999-12-31,Y
+207,C00183,Pia Larsen,pia.183@example.com,consumer,BE,Ghent,2022-09-17,1900-01-01,2025-09-15,N
+208,C00183,Pia Larsen,pia.183@example.com,enterprise,BE,Ghent,2022-09-17,2025-09-15,9999-12-31,Y
+209,C00184,Vera Rossi,vera.184@example.com,consumer,DE,Hamburg,2025-08-06,1900-01-01,9999-12-31,Y
+210,C00185,Rosa Smit,rosa.185@example.com,consumer,FR,Lyon,2024-02-17,1900-01-01,9999-12-31,Y
+211,C00186,Pia Visser,pia.186@example.com,consumer,VN,Ha Noi,2023-08-10,1900-01-01,9999-12-31,Y
+212,C00187,Mateo Nguyen,mateo.187@example.com,smb,NL,Amsterdam,2025-03-22,1900-01-01,9999-12-31,Y
+213,C00188,Ivo Tran,ivo.188@example.com,smb,BE,Brussels,2022-12-02,1900-01-01,9999-12-31,Y
+214,C00189,Yara Smit,yara.189@example.com,consumer,BE,Ghent,2025-09-27,1900-01-01,9999-12-31,Y
+215,C00190,Anna Kowalski,anna.190@example.com,smb,NL,Utrecht,2022-12-24,1900-01-01,9999-12-31,Y
+216,C00191,Wout García,wout.191@example.com,smb,DE,Hamburg,2025-09-28,1900-01-01,9999-12-31,Y
+217,C00192,Pia Larsen,pia.192@example.com,consumer,VN,Ho Chi Minh City,2024-04-18,1900-01-01,9999-12-31,Y
+218,C00193,Chen Visser,chen.193@example.com,consumer,VN,Ho Chi Minh City,2024-05-17,1900-01-01,9999-12-31,Y
+219,C00194,Rosa Haddad,rosa.194@example.com,consumer,NL,Amsterdam,2025-07-23,1900-01-01,9999-12-31,Y
+220,C00195,Anna Smit,anna.195@example.com,consumer,BE,Brussels,2023-02-14,1900-01-01,9999-12-31,Y
+221,C00196,Omar Smit,omar.196@example.com,consumer,FR,Lyon,2023-02-04,1900-01-01,9999-12-31,Y
+222,C00197,Umut Smit,umut.197@example.com,smb,FR,Paris,2023-10-15,1900-01-01,9999-12-31,Y
+223,C00198,Emre Kowalski,emre.198@example.com,smb,NL,Amsterdam,2024-09-12,1900-01-01,9999-12-31,Y
+224,C00199,Wout Jansen,wout.199@example.com,smb,NL,Amsterdam,2025-12-30,1900-01-01,9999-12-31,Y
+225,C00200,Rosa Peeters,rosa.200@example.com,consumer,DE,Berlin,2022-08-03,1900-01-01,9999-12-31,Y
+226,C00201,Sven Tran,sven.201@example.com,consumer,VN,Ha Noi,2022-08-12,1900-01-01,2025-11-06,N
+227,C00201,Sven Tran,sven.201@example.com,smb,VN,Ha Noi,2022-08-12,2025-11-06,9999-12-31,Y
+228,C00202,Ivo Müller,ivo.202@example.com,consumer,BE,Brussels,2026-03-03,1900-01-01,9999-12-31,Y
+229,C00203,Sven Larsen,sven.203@example.com,consumer,DE,Berlin,2025-11-06,1900-01-01,9999-12-31,Y
+230,C00204,Rosa Tran,rosa.204@example.com,consumer,NL,Rotterdam,2026-02-02,1900-01-01,9999-12-31,Y
+231,C00205,Fatima Novak,fatima.205@example.com,enterprise,FR,Lyon,2023-06-18,1900-01-01,9999-12-31,Y
+232,C00206,Omar Visser,omar.206@example.com,consumer,VN,Ho Chi Minh City,2025-07-19,1900-01-01,9999-12-31,Y
+233,C00207,Guido Visser,guido.207@example.com,consumer,NL,Utrecht,2024-05-06,1900-01-01,9999-12-31,Y
+234,C00208,Guido de Vries,guido.208@example.com,consumer,NL,Utrecht,2025-12-27,1900-01-01,9999-12-31,Y
+235,C00209,Fatima Tran,fatima.209@example.com,consumer,BE,Brussels,2023-08-17,1900-01-01,9999-12-31,Y
+236,C00210,Diana Larsen,diana.210@example.com,consumer,VN,Ho Chi Minh City,2024-11-01,1900-01-01,2025-11-30,N
+237,C00210,Diana Larsen,diana.210@example.com,enterprise,VN,Ho Chi Minh City,2024-11-01,2025-11-30,9999-12-31,Y
+238,C00211,Omar Dubois,omar.211@example.com,smb,VN,Ha Noi,2023-07-10,1900-01-01,9999-12-31,Y
+239,C00212,Emre de Vries,emre.212@example.com,smb,BE,Ghent,2024-11-19,1900-01-01,2025-06-05,N
+240,C00212,Emre de Vries,emre.212@example.com,consumer,BE,Ghent,2024-11-19,2025-06-05,9999-12-31,Y
+241,C00213,Omar Peeters,omar.213@example.com,consumer,FR,Lyon,2026-02-14,1900-01-01,9999-12-31,Y
+242,C00214,Diana Novak,diana.214@example.com,consumer,NL,Amsterdam,2026-03-28,1900-01-01,9999-12-31,Y
+243,C00215,Linh Okafor,linh.215@example.com,smb,BE,Ghent,2023-05-25,1900-01-01,9999-12-31,Y
+244,C00216,Karel Novak,karel.216@example.com,consumer,BE,Ghent,2023-06-23,1900-01-01,9999-12-31,Y
+245,C00217,Chen Novak,chen.217@example.com,enterprise,DE,Berlin,2023-02-12,1900-01-01,2025-09-22,N
+246,C00217,Chen Novak,chen.217@example.com,smb,DE,Berlin,2023-02-12,2025-09-22,9999-12-31,Y
+247,C00218,Vera Jansen,vera.218@example.com,smb,VN,Ha Noi,2023-06-17,1900-01-01,9999-12-31,Y
+248,C00219,Diana Müller,diana.219@example.com,consumer,DE,Berlin,2024-06-11,1900-01-01,9999-12-31,Y
+249,C00220,Tessa Haddad,tessa.220@example.com,consumer,FR,Paris,2025-12-08,1900-01-01,9999-12-31,Y
+250,C00221,Rosa Peeters,rosa.221@example.com,consumer,VN,Ha Noi,2025-04-09,1900-01-01,9999-12-31,Y
+251,C00222,Omar Okafor,omar.222@example.com,smb,NL,Utrecht,2026-02-13,1900-01-01,9999-12-31,Y
+252,C00223,Anna Dubois,anna.223@example.com,consumer,FR,Lyon,2023-04-14,1900-01-01,9999-12-31,Y
+253,C00224,Mateo Silva,mateo.224@example.com,smb,BE,Ghent,2023-10-26,1900-01-01,9999-12-31,Y
+254,C00225,Rosa Larsen,rosa.225@example.com,consumer,NL,Utrecht,2026-02-10,1900-01-01,9999-12-31,Y
+255,C00226,Mateo García,mateo.226@example.com,consumer,BE,Brussels,2024-10-28,1900-01-01,9999-12-31,Y
+256,C00227,Fatima Bakker,fatima.227@example.com,consumer,FR,Lyon,2023-03-21,1900-01-01,9999-12-31,Y
+257,C00228,Tessa Nguyen,tessa.228@example.com,consumer,VN,Ho Chi Minh City,2026-04-16,1900-01-01,9999-12-31,Y
+258,C00229,Vera Smit,vera.229@example.com,consumer,DE,Hamburg,2025-08-10,1900-01-01,9999-12-31,Y
+259,C00230,Hana Okafor,hana.230@example.com,consumer,DE,Hamburg,2023-03-31,1900-01-01,9999-12-31,Y
+260,C00231,Rosa Larsen,rosa.231@example.com,consumer,FR,Lyon,2024-05-01,1900-01-01,9999-12-31,Y
+261,C00232,Hana Nguyen,hana.232@example.com,consumer,BE,Ghent,2024-04-29,1900-01-01,9999-12-31,Y
+262,C00233,Julia Tran,julia.233@example.com,smb,DE,Berlin,2025-01-29,1900-01-01,9999-12-31,Y
+263,C00234,Nadia Haddad,nadia.234@example.com,consumer,DE,Berlin,2025-01-01,1900-01-01,9999-12-31,Y
+264,C00235,Diana Jansen,diana.235@example.com,consumer,VN,Ha Noi,2024-09-06,1900-01-01,9999-12-31,Y
+265,C00236,Bram Rossi,bram.236@example.com,consumer,VN,Ho Chi Minh City,2026-02-21,1900-01-01,9999-12-31,Y
+266,C00237,Mateo Larsen,mateo.237@example.com,consumer,FR,Paris,2023-05-07,1900-01-01,9999-12-31,Y
+267,C00238,Ivo Kowalski,ivo.238@example.com,smb,FR,Lyon,2024-07-31,1900-01-01,9999-12-31,Y
+268,C00239,Karel Jansen,,consumer,NL,Rotterdam,2025-07-03,1900-01-01,9999-12-31,Y
+269,C00240,Diana Dubois,diana.240@example.com,consumer,DE,Hamburg,2025-12-25,1900-01-01,9999-12-31,Y
+270,C00241,Vera de Vries,vera.241@example.com,smb,DE,Hamburg,2023-09-02,1900-01-01,2026-03-20,N
+271,C00241,Vera de Vries,vera.241@example.com,consumer,DE,Hamburg,2023-09-02,2026-03-20,9999-12-31,Y
+272,C00242,Wout Visser,wout.242@example.com,consumer,DE,Hamburg,2026-04-29,1900-01-01,9999-12-31,Y
+273,C00243,Bram Larsen,bram.243@example.com,consumer,BE,Brussels,2023-09-25,1900-01-01,9999-12-31,Y
+274,C00244,Umut Nguyen,umut.244@example.com,smb,DE,Hamburg,2025-04-06,1900-01-01,9999-12-31,Y
+275,C00245,Nadia Visser,nadia.245@example.com,smb,VN,Ha Noi,2024-02-08,1900-01-01,9999-12-31,Y
+276,C00246,Chen Jansen,chen.246@example.com,consumer,DE,Hamburg,2026-05-04,1900-01-01,9999-12-31,Y
+277,C00247,Mateo Haddad,mateo.247@example.com,consumer,BE,Brussels,2022-09-07,1900-01-01,9999-12-31,Y
+278,C00248,Linh Müller,linh.248@example.com,consumer,BE,Ghent,2026-05-09,1900-01-01,9999-12-31,Y
+279,C00249,Anna Haddad,anna.249@example.com,consumer,FR,Paris,2022-09-04,1900-01-01,2025-10-11,N
+280,C00249,Anna Haddad,anna.249@example.com,enterprise,FR,Paris,2022-09-04,2025-10-11,9999-12-31,Y
+281,C00250,Fatima García,fatima.250@example.com,consumer,DE,Berlin,2024-07-07,1900-01-01,9999-12-31,Y
+282,C00251,Guido Peeters,guido.251@example.com,smb,VN,Ho Chi Minh City,2024-09-06,1900-01-01,9999-12-31,Y
+283,C00252,Linh Novak,linh.252@example.com,consumer,DE,Berlin,2025-08-19,1900-01-01,9999-12-31,Y
+284,C00253,Omar Rossi,omar.253@example.com,consumer,VN,Ha Noi,2025-07-14,1900-01-01,9999-12-31,Y
+285,C00254,Umut Smit,umut.254@example.com,consumer,NL,Amsterdam,2023-08-20,1900-01-01,9999-12-31,Y
+286,C00255,Julia Haddad,julia.255@example.com,consumer,FR,Lyon,2023-04-16,1900-01-01,9999-12-31,Y
+287,C00256,Tessa Larsen,tessa.256@example.com,consumer,FR,Paris,2023-01-28,1900-01-01,9999-12-31,Y
+288,C00257,Emre Nguyen,emre.257@example.com,consumer,DE,Berlin,2023-09-02,1900-01-01,9999-12-31,Y
+289,C00258,Julia Rossi,julia.258@example.com,consumer,DE,,2023-06-22,1900-01-01,9999-12-31,Y
+290,C00259,Vera Novak,vera.259@example.com,enterprise,FR,Lyon,2025-11-03,1900-01-01,9999-12-31,Y
+291,C00260,Chen Peeters,chen.260@example.com,smb,FR,Lyon,2026-01-27,1900-01-01,9999-12-31,Y
+292,C00261,Nadia Haddad,nadia.261@example.com,enterprise,VN,Ho Chi Minh City,2025-12-11,1900-01-01,9999-12-31,Y
+293,C00262,Emre Peeters,emre.262@example.com,consumer,BE,Ghent,2023-12-25,1900-01-01,9999-12-31,Y
+294,C00263,Yara Nguyen,yara.263@example.com,enterprise,FR,Paris,2026-05-06,1900-01-01,9999-12-31,Y
+295,C00264,Mateo Haddad,mateo.264@example.com,consumer,VN,Ho Chi Minh City,2023-09-07,1900-01-01,9999-12-31,Y
+296,C00265,Emre Jansen,emre.265@example.com,enterprise,NL,Rotterdam,2025-04-11,1900-01-01,9999-12-31,Y
+297,C00266,Anna Müller,anna.266@example.com,consumer,DE,Berlin,2026-01-31,1900-01-01,9999-12-31,Y
+298,C00267,Quinn Rossi,quinn.267@example.com,consumer,FR,Lyon,2025-10-13,1900-01-01,2025-11-12,N
+299,C00267,Quinn Rossi,quinn.267@example.com,smb,FR,Lyon,2025-10-13,2025-11-12,9999-12-31,Y
+300,C00268,Quinn Müller,quinn.268@example.com,smb,NL,,2022-08-11,1900-01-01,9999-12-31,Y
+301,C00269,Anna Smit,anna.269@example.com,consumer,DE,Hamburg,2024-06-29,1900-01-01,9999-12-31,Y
+302,C00270,Sven Tran,sven.270@example.com,consumer,DE,Berlin,2025-04-17,1900-01-01,9999-12-31,Y
+303,C00271,Pia Larsen,pia.271@example.com,consumer,BE,Ghent,2023-09-09,1900-01-01,9999-12-31,Y
+304,C00272,Sven Kowalski,sven.272@example.com,smb,BE,Brussels,2025-02-04,1900-01-01,9999-12-31,Y
+305,C00273,Fatima Okafor,fatima.273@example.com,smb,DE,Hamburg,2025-04-19,1900-01-01,9999-12-31,Y
+306,C00274,Quinn Dubois,quinn.274@example.com,consumer,FR,Lyon,2023-10-08,1900-01-01,9999-12-31,Y
+307,C00275,Bram Bakker,bram.275@example.com,consumer,DE,Berlin,2025-09-15,1900-01-01,9999-12-31,Y
+308,C00276,Omar Kowalski,omar.276@example.com,consumer,VN,Ho Chi Minh City,2025-03-04,1900-01-01,9999-12-31,Y
+309,C00277,Diana Larsen,diana.277@example.com,consumer,VN,Ho Chi Minh City,2024-11-29,1900-01-01,9999-12-31,Y
+310,C00278,Hana Novak,hana.278@example.com,consumer,NL,Rotterdam,2024-01-30,1900-01-01,9999-12-31,Y
+311,C00279,Guido Nguyen,guido.279@example.com,smb,FR,Lyon,2026-03-25,1900-01-01,9999-12-31,Y
+312,C00280,Emre Kowalski,emre.280@example.com,smb,BE,Brussels,2025-03-04,1900-01-01,9999-12-31,Y
+313,C00281,Linh Tran,linh.281@example.com,consumer,NL,Amsterdam,2025-01-14,1900-01-01,9999-12-31,Y
+314,C00282,Yara Jansen,yara.282@example.com,consumer,DE,Berlin,2024-01-10,1900-01-01,9999-12-31,Y
+315,C00283,Hana Kowalski,hana.283@example.com,consumer,VN,Ho Chi Minh City,2025-05-17,1900-01-01,9999-12-31,Y
+316,C00284,Fatima García,fatima.284@example.com,consumer,NL,Utrecht,2022-12-09,1900-01-01,9999-12-31,Y
+317,C00285,Ivo Kowalski,ivo.285@example.com,smb,VN,Ha Noi,2024-12-14,1900-01-01,9999-12-31,Y
+318,C00286,Pia Bakker,pia.286@example.com,smb,NL,Amsterdam,2023-07-23,1900-01-01,9999-12-31,Y
+319,C00287,Umut Dubois,umut.287@example.com,consumer,VN,Ho Chi Minh City,2024-08-03,1900-01-01,9999-12-31,Y
+320,C00288,Rosa Rossi,rosa.288@example.com,consumer,DE,Berlin,2024-06-22,1900-01-01,9999-12-31,Y
+321,C00289,Bram Haddad,bram.289@example.com,consumer,VN,Ho Chi Minh City,2025-08-12,1900-01-01,9999-12-31,Y
+322,C00290,Vera Kowalski,vera.290@example.com,consumer,BE,Brussels,2022-08-21,1900-01-01,9999-12-31,Y
+323,C00291,Pia Haddad,pia.291@example.com,consumer,NL,Rotterdam,2022-09-03,1900-01-01,9999-12-31,Y
+324,C00292,Anna Nguyen,anna.292@example.com,consumer,DE,Hamburg,2024-11-11,1900-01-01,9999-12-31,Y
+325,C00293,Fatima Kowalski,fatima.293@example.com,smb,BE,Brussels,2023-07-10,1900-01-01,9999-12-31,Y
+326,C00294,Vera Visser,vera.294@example.com,enterprise,FR,Paris,2023-10-23,1900-01-01,9999-12-31,Y
+327,C00295,Hana Bakker,hana.295@example.com,smb,BE,Ghent,2025-08-27,1900-01-01,9999-12-31,Y
+328,C00296,Yara Peeters,yara.296@example.com,consumer,VN,Ha Noi,2024-12-09,1900-01-01,2025-09-08,N
+329,C00296,Yara Peeters,yara.296@example.com,enterprise,VN,Ha Noi,2024-12-09,2025-09-08,9999-12-31,Y
+330,C00297,Linh Visser,linh.297@example.com,smb,VN,Ho Chi Minh City,2024-11-10,1900-01-01,2026-03-25,N
+331,C00297,Linh Visser,linh.297@example.com,consumer,VN,Ho Chi Minh City,2024-11-10,2026-03-25,9999-12-31,Y
+332,C00298,Wout Kowalski,wout.298@example.com,smb,NL,Utrecht,2024-01-25,1900-01-01,9999-12-31,Y
+333,C00299,Guido Rossi,guido.299@example.com,consumer,VN,Ha Noi,2024-08-08,1900-01-01,9999-12-31,Y
+334,C00300,Chen Jansen,chen.300@example.com,enterprise,BE,Brussels,2025-04-27,1900-01-01,9999-12-31,Y
+335,C00301,Nadia Bakker,nadia.301@example.com,smb,BE,Ghent,2025-12-24,1900-01-01,9999-12-31,Y
+336,C00302,Yara Silva,yara.302@example.com,consumer,VN,Ha Noi,2024-09-10,1900-01-01,9999-12-31,Y
+337,C00303,Diana Müller,diana.303@example.com,smb,DE,Hamburg,2024-03-17,1900-01-01,9999-12-31,Y
+338,C00304,Anna Bakker,anna.304@example.com,smb,FR,Lyon,2022-07-28,1900-01-01,9999-12-31,Y
+339,C00305,Sven Silva,sven.305@example.com,smb,BE,Brussels,2025-09-01,1900-01-01,9999-12-31,Y
+340,C00306,Karel Larsen,karel.306@example.com,consumer,DE,Berlin,2024-06-20,1900-01-01,9999-12-31,Y
+341,C00307,Bram Silva,bram.307@example.com,smb,BE,Ghent,2026-01-30,1900-01-01,9999-12-31,Y
+342,C00308,Anna Silva,anna.308@example.com,smb,BE,,2025-09-03,1900-01-01,9999-12-31,Y
+343,C00309,Vera Dubois,vera.309@example.com,smb,FR,Lyon,2026-03-24,1900-01-01,9999-12-31,Y
+344,C00310,Julia de Vries,julia.310@example.com,consumer,BE,Brussels,2025-09-16,1900-01-01,9999-12-31,Y
+345,C00311,Bram Okafor,bram.311@example.com,consumer,DE,Hamburg,2024-03-28,1900-01-01,9999-12-31,Y
+346,C00312,Julia Rossi,julia.312@example.com,consumer,DE,Hamburg,2023-01-11,1900-01-01,9999-12-31,Y
+347,C00313,Linh Bakker,linh.313@example.com,consumer,VN,Ha Noi,2024-09-20,1900-01-01,9999-12-31,Y
+348,C00314,Quinn Bakker,quinn.314@example.com,consumer,BE,Brussels,2026-04-18,1900-01-01,9999-12-31,Y
+349,C00315,Linh Jansen,linh.315@example.com,consumer,NL,Rotterdam,2023-01-05,1900-01-01,9999-12-31,Y
+350,C00316,Pia Larsen,pia.316@example.com,consumer,BE,Ghent,2024-01-01,1900-01-01,2025-07-22,N
+351,C00316,Pia Larsen,pia.316@example.com,enterprise,BE,Ghent,2024-01-01,2025-07-22,9999-12-31,Y
+352,C00317,Guido Silva,guido.317@example.com,consumer,DE,Hamburg,2026-03-21,1900-01-01,9999-12-31,Y
+353,C00318,Hana Dubois,hana.318@example.com,consumer,NL,Rotterdam,2026-01-06,1900-01-01,9999-12-31,Y
+354,C00319,Chen Jansen,chen.319@example.com,consumer,VN,Ho Chi Minh City,2025-08-07,1900-01-01,9999-12-31,Y
+355,C00320,Fatima Peeters,fatima.320@example.com,consumer,DE,Berlin,2025-09-23,1900-01-01,9999-12-31,Y
+356,C00321,Tessa Kowalski,tessa.321@example.com,consumer,BE,Ghent,2024-10-26,1900-01-01,2025-03-17,N
+357,C00321,Tessa Kowalski,tessa.321@example.com,smb,BE,Ghent,2024-10-26,2025-03-17,9999-12-31,Y
+358,C00322,Pia Kowalski,pia.322@example.com,consumer,BE,Ghent,2026-02-01,1900-01-01,9999-12-31,Y
+359,C00323,Wout Larsen,wout.323@example.com,consumer,DE,,2026-04-24,1900-01-01,9999-12-31,Y
+360,C00324,Umut Tran,umut.324@example.com,smb,DE,Hamburg,2024-08-15,1900-01-01,9999-12-31,Y
+361,C00325,Umut García,umut.325@example.com,enterprise,FR,Paris,2025-02-19,1900-01-01,9999-12-31,Y
+362,C00326,Nadia Tran,nadia.326@example.com,consumer,DE,Berlin,2025-02-02,1900-01-01,9999-12-31,Y
+363,C00327,Linh Novak,linh.327@example.com,consumer,BE,Ghent,2026-02-16,1900-01-01,9999-12-31,Y
+364,C00328,Wout Kowalski,wout.328@example.com,smb,BE,Brussels,2024-11-09,1900-01-01,9999-12-31,Y
+365,C00329,Pia Jansen,pia.329@example.com,consumer,VN,Ho Chi Minh City,2022-07-19,1900-01-01,9999-12-31,Y
+366,C00330,Emre Dubois,emre.330@example.com,consumer,VN,Ho Chi Minh City,2022-12-18,1900-01-01,2025-03-14,N
+367,C00330,Emre Dubois,emre.330@example.com,enterprise,VN,Ho Chi Minh City,2022-12-18,2025-03-14,9999-12-31,Y
+368,C00331,Karel Rossi,karel.331@example.com,smb,FR,Paris,2025-04-01,1900-01-01,9999-12-31,Y
+369,C00332,Julia Müller,julia.332@example.com,smb,NL,Rotterdam,2025-03-08,1900-01-01,9999-12-31,Y
+370,C00333,Emre Haddad,emre.333@example.com,enterprise,DE,Berlin,2024-09-20,1900-01-01,9999-12-31,Y
+371,C00334,Diana Kowalski,diana.334@example.com,enterprise,DE,Hamburg,2025-03-27,1900-01-01,2026-01-07,N
+372,C00334,Diana Kowalski,diana.334@example.com,smb,DE,Hamburg,2025-03-27,2026-01-07,9999-12-31,Y
+373,C00335,Nadia Kowalski,nadia.335@example.com,consumer,VN,Ha Noi,2023-06-01,1900-01-01,9999-12-31,Y
+374,C00336,Omar de Vries,omar.336@example.com,consumer,BE,Brussels,2025-09-02,1900-01-01,9999-12-31,Y
+375,C00337,Chen Haddad,chen.337@example.com,consumer,DE,Berlin,2025-12-12,1900-01-01,9999-12-31,Y
+376,C00338,Umut Nguyen,,consumer,BE,,2022-10-17,1900-01-01,9999-12-31,Y
+377,C00339,Nadia Jansen,nadia.339@example.com,smb,FR,Lyon,2025-06-15,1900-01-01,2025-07-15,N
+378,C00339,Nadia Jansen,nadia.339@example.com,enterprise,FR,Lyon,2025-06-15,2025-07-15,9999-12-31,Y
+379,C00340,Omar Rossi,omar.340@example.com,consumer,DE,Hamburg,2024-10-10,1900-01-01,9999-12-31,Y
+380,C00341,Hana Müller,hana.341@example.com,consumer,DE,Hamburg,2024-11-19,1900-01-01,2025-03-14,N
+381,C00341,Hana Müller,hana.341@example.com,enterprise,DE,Hamburg,2024-11-19,2025-03-14,9999-12-31,Y
+382,C00342,Wout Dubois,wout.342@example.com,enterprise,NL,Utrecht,2023-02-20,1900-01-01,9999-12-31,Y
+383,C00343,Fatima Rossi,fatima.343@example.com,consumer,DE,Berlin,2026-03-08,1900-01-01,9999-12-31,Y
+384,C00344,Vera Novak,vera.344@example.com,consumer,VN,Ha Noi,2024-02-20,1900-01-01,9999-12-31,Y
+385,C00345,Tessa Dubois,tessa.345@example.com,consumer,NL,Rotterdam,2023-11-27,1900-01-01,9999-12-31,Y
+386,C00346,Omar Novak,omar.346@example.com,consumer,DE,Berlin,2022-09-12,1900-01-01,2025-10-17,N
+387,C00346,Omar Novak,omar.346@example.com,smb,DE,Berlin,2022-09-12,2025-10-17,9999-12-31,Y
+388,C00347,Sven Rossi,sven.347@example.com,smb,NL,Rotterdam,2022-09-20,1900-01-01,9999-12-31,Y
+389,C00348,Guido de Vries,guido.348@example.com,smb,VN,Ha Noi,2023-04-08,1900-01-01,9999-12-31,Y
+390,C00349,Anna Kowalski,anna.349@example.com,consumer,VN,Ho Chi Minh City,2022-11-25,1900-01-01,9999-12-31,Y
+391,C00350,Vera García,vera.350@example.com,enterprise,VN,Ho Chi Minh City,2022-09-11,1900-01-01,9999-12-31,Y
+392,C00351,Quinn Rossi,quinn.351@example.com,smb,NL,Utrecht,2025-12-10,1900-01-01,9999-12-31,Y
+393,C00352,Mateo Visser,mateo.352@example.com,consumer,FR,Paris,2023-06-21,1900-01-01,9999-12-31,Y
+394,C00353,Linh Larsen,linh.353@example.com,consumer,NL,Amsterdam,2025-08-12,1900-01-01,9999-12-31,Y
+395,C00354,Linh Okafor,linh.354@example.com,smb,NL,Utrecht,2025-08-16,1900-01-01,9999-12-31,Y
+396,C00355,Emre Larsen,emre.355@example.com,consumer,BE,Brussels,2022-08-14,1900-01-01,9999-12-31,Y
+397,C00356,Karel Jansen,karel.356@example.com,smb,NL,Utrecht,2023-10-14,1900-01-01,9999-12-31,Y
+398,C00357,Diana Visser,diana.357@example.com,consumer,FR,,2024-07-22,1900-01-01,9999-12-31,Y
+399,C00358,Anna Tran,anna.358@example.com,consumer,DE,Berlin,2025-06-21,1900-01-01,9999-12-31,Y
+400,C00359,Anna Smit,anna.359@example.com,enterprise,FR,Paris,2024-11-01,1900-01-01,9999-12-31,Y
+401,C00360,Quinn Kowalski,quinn.360@example.com,consumer,NL,Amsterdam,2024-04-14,1900-01-01,9999-12-31,Y
+402,C00361,Bram Rossi,bram.361@example.com,consumer,VN,Ho Chi Minh City,2023-10-30,1900-01-01,9999-12-31,Y
+403,C00362,Diana Silva,diana.362@example.com,consumer,NL,Amsterdam,2023-03-21,1900-01-01,9999-12-31,Y
+404,C00363,Linh Okafor,linh.363@example.com,consumer,FR,Paris,2024-10-19,1900-01-01,9999-12-31,Y
+405,C00364,Rosa Nguyen,rosa.364@example.com,smb,NL,Utrecht,2024-04-12,1900-01-01,9999-12-31,Y
+406,C00365,Tessa Tran,tessa.365@example.com,smb,NL,Rotterdam,2025-08-05,1900-01-01,9999-12-31,Y
+407,C00366,Diana García,diana.366@example.com,consumer,NL,Rotterdam,2026-01-13,1900-01-01,9999-12-31,Y
+408,C00367,Wout Dubois,wout.367@example.com,consumer,VN,Ha Noi,2026-04-09,1900-01-01,9999-12-31,Y
+409,C00368,Diana Peeters,diana.368@example.com,consumer,FR,Lyon,2024-10-26,1900-01-01,9999-12-31,Y
+410,C00369,Emre García,emre.369@example.com,consumer,FR,Paris,2025-08-22,1900-01-01,9999-12-31,Y
+411,C00370,Sven Kowalski,sven.370@example.com,consumer,NL,Utrecht,2024-06-30,1900-01-01,2025-07-22,N
+412,C00370,Sven Kowalski,sven.370@example.com,smb,NL,Utrecht,2024-06-30,2025-07-22,9999-12-31,Y
+413,C00371,Diana Kowalski,diana.371@example.com,enterprise,NL,Utrecht,2023-09-05,1900-01-01,9999-12-31,Y
+414,C00372,Quinn Peeters,quinn.372@example.com,consumer,DE,Hamburg,2023-12-10,1900-01-01,9999-12-31,Y
+415,C00373,Quinn Silva,quinn.373@example.com,consumer,DE,Hamburg,2025-07-18,1900-01-01,9999-12-31,Y
+416,C00374,Anna Kowalski,anna.374@example.com,smb,FR,Lyon,2025-07-01,1900-01-01,9999-12-31,Y
+417,C00375,Nadia Silva,nadia.375@example.com,consumer,DE,Hamburg,2024-10-26,1900-01-01,9999-12-31,Y
+418,C00376,Pia Müller,pia.376@example.com,enterprise,DE,,2025-07-24,1900-01-01,9999-12-31,Y
+419,C00377,Umut Rossi,umut.377@example.com,enterprise,NL,Utrecht,2024-09-09,1900-01-01,9999-12-31,Y
+420,C00378,Quinn Peeters,quinn.378@example.com,consumer,BE,Brussels,2023-02-07,1900-01-01,9999-12-31,Y
+421,C00379,Emre Peeters,emre.379@example.com,enterprise,FR,Paris,2023-05-22,1900-01-01,9999-12-31,Y
+422,C00380,Sven Jansen,sven.380@example.com,consumer,VN,Ha Noi,2023-04-24,1900-01-01,9999-12-31,Y
+423,C00381,Tessa Haddad,tessa.381@example.com,consumer,VN,Ho Chi Minh City,2025-07-14,1900-01-01,9999-12-31,Y
+424,C00382,Linh Tran,linh.382@example.com,smb,NL,Utrecht,2023-08-13,1900-01-01,9999-12-31,Y
+425,C00383,Vera Silva,vera.383@example.com,smb,FR,Paris,2023-02-06,1900-01-01,9999-12-31,Y
+426,C00384,Tessa Rossi,tessa.384@example.com,consumer,NL,Amsterdam,2023-05-28,1900-01-01,9999-12-31,Y
+427,C00385,Wout de Vries,wout.385@example.com,consumer,VN,,2026-01-29,1900-01-01,9999-12-31,Y
+428,C00386,Rosa Larsen,rosa.386@example.com,enterprise,FR,Lyon,2025-07-26,1900-01-01,2025-08-25,N
+429,C00386,Rosa Larsen,rosa.386@example.com,consumer,FR,Lyon,2025-07-26,2025-08-25,9999-12-31,Y
+430,C00387,Emre Smit,emre.387@example.com,consumer,BE,Brussels,2024-12-03,1900-01-01,2026-03-26,N
+431,C00387,Emre Smit,emre.387@example.com,smb,BE,Brussels,2024-12-03,2026-03-26,9999-12-31,Y
+432,C00388,Anna Silva,anna.388@example.com,consumer,FR,Paris,2025-01-11,1900-01-01,9999-12-31,Y
+433,C00389,Rosa Jansen,rosa.389@example.com,consumer,FR,Lyon,2023-09-15,1900-01-01,9999-12-31,Y
+434,C00390,Rosa de Vries,rosa.390@example.com,smb,FR,Lyon,2025-12-22,1900-01-01,9999-12-31,Y
+435,C00391,Ivo Novak,ivo.391@example.com,consumer,NL,Utrecht,2024-08-31,1900-01-01,9999-12-31,Y
+436,C00392,Fatima Haddad,fatima.392@example.com,consumer,BE,Ghent,2025-04-18,1900-01-01,2025-11-23,N
+437,C00392,Fatima Haddad,fatima.392@example.com,smb,BE,Ghent,2025-04-18,2025-11-23,9999-12-31,Y
+438,C00393,Pia Tran,pia.393@example.com,consumer,DE,Hamburg,2024-10-28,1900-01-01,9999-12-31,Y
+439,C00394,Anna Haddad,anna.394@example.com,consumer,NL,,2023-03-02,1900-01-01,9999-12-31,Y
+440,C00395,Sven Haddad,sven.395@example.com,consumer,FR,Paris,2025-10-13,1900-01-01,9999-12-31,Y
+441,C00396,Anna Silva,anna.396@example.com,consumer,FR,Paris,2026-03-07,1900-01-01,9999-12-31,Y
+442,C00397,Vera de Vries,vera.397@example.com,consumer,FR,Paris,2022-12-20,1900-01-01,9999-12-31,Y
+443,C00398,Emre Nguyen,emre.398@example.com,smb,NL,Rotterdam,2026-04-11,1900-01-01,9999-12-31,Y
+444,C00399,Umut Smit,umut.399@example.com,consumer,FR,Paris,2026-03-24,1900-01-01,9999-12-31,Y
+445,C00400,Karel Peeters,karel.400@example.com,consumer,BE,Brussels,2024-12-31,1900-01-01,9999-12-31,Y
+446,C00401,Guido García,guido.401@example.com,smb,DE,Hamburg,2022-09-16,1900-01-01,9999-12-31,Y
+447,C00402,Rosa Rossi,rosa.402@example.com,smb,FR,Lyon,2023-08-17,1900-01-01,9999-12-31,Y
+448,C00403,Chen Haddad,,consumer,NL,Rotterdam,2025-09-01,1900-01-01,9999-12-31,Y
+449,C00404,Rosa Haddad,rosa.404@example.com,consumer,NL,Utrecht,2023-05-27,1900-01-01,9999-12-31,Y
+450,C00405,Sven Haddad,sven.405@example.com,smb,VN,Ha Noi,2025-07-29,1900-01-01,9999-12-31,Y
+451,C00406,Nadia Smit,nadia.406@example.com,consumer,DE,Hamburg,2026-03-14,1900-01-01,9999-12-31,Y
+452,C00407,Omar Silva,omar.407@example.com,enterprise,BE,Brussels,2026-05-15,1900-01-01,9999-12-31,Y
+453,C00408,Anna Kowalski,anna.408@example.com,enterprise,VN,Ha Noi,2023-05-15,1900-01-01,2025-06-09,N
+454,C00408,Anna Kowalski,anna.408@example.com,consumer,VN,Ha Noi,2023-05-15,2025-06-09,9999-12-31,Y
+455,C00409,Julia Peeters,julia.409@example.com,consumer,DE,Berlin,2025-09-19,1900-01-01,9999-12-31,Y
+456,C00410,Omar Rossi,omar.410@example.com,consumer,VN,Ha Noi,2024-05-31,1900-01-01,9999-12-31,Y
+457,C00411,Diana de Vries,diana.411@example.com,consumer,NL,Utrecht,2023-09-05,1900-01-01,9999-12-31,Y
+458,C00412,Wout Smit,wout.412@example.com,consumer,VN,Ho Chi Minh City,2023-07-07,1900-01-01,9999-12-31,Y
+459,C00413,Rosa Müller,rosa.413@example.com,consumer,VN,Ha Noi,2023-03-11,1900-01-01,2025-05-11,N
+460,C00413,Rosa Müller,rosa.413@example.com,enterprise,VN,Ha Noi,2023-03-11,2025-05-11,9999-12-31,Y
+461,C00414,Omar de Vries,omar.414@example.com,consumer,VN,Ha Noi,2022-07-18,1900-01-01,9999-12-31,Y
+462,C00415,Wout Smit,wout.415@example.com,consumer,VN,Ho Chi Minh City,2026-03-11,1900-01-01,9999-12-31,Y
+463,C00416,Omar Silva,omar.416@example.com,consumer,BE,Brussels,2024-11-22,1900-01-01,9999-12-31,Y
+464,C00417,Tessa Tran,tessa.417@example.com,smb,DE,Hamburg,2024-04-21,1900-01-01,9999-12-31,Y
+465,C00418,Hana Kowalski,hana.418@example.com,consumer,DE,Hamburg,2025-10-25,1900-01-01,9999-12-31,Y
+466,C00419,Anna Smit,anna.419@example.com,smb,DE,Hamburg,2024-05-14,1900-01-01,9999-12-31,Y
+467,C00420,Umut Bakker,umut.420@example.com,smb,DE,Hamburg,2023-03-27,1900-01-01,9999-12-31,Y
+468,C00421,Rosa Peeters,rosa.421@example.com,consumer,FR,Paris,2025-09-06,1900-01-01,9999-12-31,Y
+469,C00422,Guido Smit,guido.422@example.com,enterprise,BE,Brussels,2022-12-12,1900-01-01,2025-07-28,N
+470,C00422,Guido Smit,guido.422@example.com,smb,BE,Brussels,2022-12-12,2025-07-28,9999-12-31,Y
+471,C00423,Diana Tran,diana.423@example.com,consumer,VN,Ha Noi,2024-11-14,1900-01-01,9999-12-31,Y
+472,C00424,Pia Nguyen,pia.424@example.com,consumer,NL,Rotterdam,2022-12-21,1900-01-01,9999-12-31,Y
+473,C00425,Anna Rossi,anna.425@example.com,consumer,FR,Lyon,2023-03-05,1900-01-01,9999-12-31,Y
+474,C00426,Julia Visser,julia.426@example.com,smb,BE,Ghent,2025-04-07,1900-01-01,9999-12-31,Y
+475,C00427,Nadia Dubois,nadia.427@example.com,smb,BE,Ghent,2026-01-28,1900-01-01,9999-12-31,Y
+476,C00428,Umut Peeters,umut.428@example.com,consumer,VN,,2024-11-25,1900-01-01,9999-12-31,Y
+477,C00429,Linh Visser,linh.429@example.com,consumer,DE,Berlin,2023-11-08,1900-01-01,9999-12-31,Y
+478,C00430,Diana de Vries,diana.430@example.com,consumer,FR,Paris,2025-02-19,1900-01-01,9999-12-31,Y
+479,C00431,Fatima Dubois,fatima.431@example.com,consumer,BE,Brussels,2022-11-01,1900-01-01,9999-12-31,Y
+480,C00432,Vera Okafor,vera.432@example.com,consumer,FR,Lyon,2024-06-13,1900-01-01,9999-12-31,Y
+481,C00433,Anna Müller,anna.433@example.com,smb,BE,Ghent,2024-02-04,1900-01-01,9999-12-31,Y
+482,C00434,Guido Haddad,guido.434@example.com,consumer,VN,Ha Noi,2025-07-06,1900-01-01,9999-12-31,Y
+483,C00435,Emre Tran,emre.435@example.com,consumer,VN,Ha Noi,2024-10-02,1900-01-01,9999-12-31,Y
+484,C00436,Omar Smit,omar.436@example.com,consumer,NL,Rotterdam,2024-09-29,1900-01-01,9999-12-31,Y
+485,C00437,Emre Visser,emre.437@example.com,consumer,FR,Paris,2025-05-14,1900-01-01,9999-12-31,Y
+486,C00438,Chen Jansen,chen.438@example.com,consumer,NL,Amsterdam,2025-01-19,1900-01-01,9999-12-31,Y
+487,C00439,Linh Nguyen,linh.439@example.com,consumer,VN,Ho Chi Minh City,2025-04-16,1900-01-01,2025-08-19,N
+488,C00439,Linh Nguyen,linh.439@example.com,smb,VN,Ho Chi Minh City,2025-04-16,2025-08-19,9999-12-31,Y
+489,C00440,Anna Dubois,anna.440@example.com,smb,NL,Rotterdam,2024-07-28,1900-01-01,9999-12-31,Y
+490,C00441,Fatima Bakker,fatima.441@example.com,consumer,NL,Amsterdam,2023-12-12,1900-01-01,9999-12-31,Y
+491,C00442,Bram Okafor,bram.442@example.com,consumer,DE,Berlin,2025-08-14,1900-01-01,9999-12-31,Y
+492,C00443,Umut Bakker,umut.443@example.com,consumer,FR,Lyon,2023-03-24,1900-01-01,9999-12-31,Y
+493,C00444,Emre Müller,emre.444@example.com,consumer,DE,Berlin,2025-02-15,1900-01-01,9999-12-31,Y
+494,C00445,Julia Dubois,julia.445@example.com,consumer,DE,Berlin,2024-06-02,1900-01-01,9999-12-31,Y
+495,C00446,Umut de Vries,umut.446@example.com,consumer,BE,Brussels,2024-12-05,1900-01-01,9999-12-31,Y
+496,C00447,Anna Rossi,anna.447@example.com,consumer,DE,Berlin,2024-06-15,1900-01-01,9999-12-31,Y
+497,C00448,Anna García,anna.448@example.com,consumer,DE,Hamburg,2024-08-18,1900-01-01,9999-12-31,Y
+498,C00449,Nadia Silva,nadia.449@example.com,enterprise,NL,Utrecht,2023-06-29,1900-01-01,9999-12-31,Y
+499,C00450,Anna Nguyen,anna.450@example.com,consumer,VN,Ha Noi,2022-11-14,1900-01-01,9999-12-31,Y
+500,C00451,Diana Silva,,consumer,FR,Paris,2023-04-13,1900-01-01,9999-12-31,Y
+501,C00452,Pia García,pia.452@example.com,enterprise,VN,Ho Chi Minh City,2022-12-22,1900-01-01,2025-05-05,N
+502,C00452,Pia García,pia.452@example.com,consumer,VN,Ho Chi Minh City,2022-12-22,2025-05-05,9999-12-31,Y
+503,C00453,Omar Smit,omar.453@example.com,consumer,DE,Berlin,2026-01-03,1900-01-01,9999-12-31,Y
+504,C00454,Guido Rossi,guido.454@example.com,consumer,DE,Hamburg,2025-12-19,1900-01-01,9999-12-31,Y
+505,C00455,Rosa Bakker,rosa.455@example.com,consumer,DE,Hamburg,2022-10-07,1900-01-01,9999-12-31,Y
+506,C00456,Anna Larsen,anna.456@example.com,smb,DE,Hamburg,2025-12-23,1900-01-01,9999-12-31,Y
+507,C00457,Pia Rossi,pia.457@example.com,enterprise,VN,Ha Noi,2023-10-26,1900-01-01,9999-12-31,Y
+508,C00458,Guido de Vries,guido.458@example.com,consumer,DE,Hamburg,2023-08-05,1900-01-01,9999-12-31,Y
+509,C00459,Diana Okafor,diana.459@example.com,consumer,FR,,2026-05-09,1900-01-01,9999-12-31,Y
+510,C00460,Umut Müller,umut.460@example.com,enterprise,VN,Ha Noi,2025-07-28,1900-01-01,9999-12-31,Y
+511,C00461,Sven Kowalski,sven.461@example.com,smb,BE,Brussels,2024-10-16,1900-01-01,9999-12-31,Y
+512,C00462,Wout Dubois,wout.462@example.com,consumer,DE,Hamburg,2025-08-01,1900-01-01,9999-12-31,Y
+513,C00463,Nadia Novak,nadia.463@example.com,consumer,DE,Hamburg,2022-11-16,1900-01-01,9999-12-31,Y
+514,C00464,Fatima Müller,fatima.464@example.com,smb,DE,Hamburg,2025-04-27,1900-01-01,9999-12-31,Y
+515,C00465,Tessa Dubois,tessa.465@example.com,smb,FR,Lyon,2024-06-23,1900-01-01,9999-12-31,Y
+516,C00466,Anna Peeters,anna.466@example.com,consumer,DE,Hamburg,2022-09-11,1900-01-01,9999-12-31,Y
+517,C00467,Anna Larsen,anna.467@example.com,consumer,FR,Paris,2026-02-08,1900-01-01,9999-12-31,Y
+518,C00468,Julia Okafor,julia.468@example.com,consumer,DE,Berlin,2022-12-31,1900-01-01,9999-12-31,Y
+519,C00469,Ivo Haddad,ivo.469@example.com,consumer,FR,Paris,2024-06-19,1900-01-01,9999-12-31,Y
+520,C00470,Yara Kowalski,yara.470@example.com,consumer,VN,,2026-02-15,1900-01-01,9999-12-31,Y
+521,C00471,Omar García,omar.471@example.com,consumer,DE,Hamburg,2023-03-13,1900-01-01,9999-12-31,Y
+522,C00472,Omar Peeters,omar.472@example.com,consumer,FR,Paris,2025-04-21,1900-01-01,9999-12-31,Y
+523,C00473,Sven Dubois,sven.473@example.com,enterprise,BE,Brussels,2025-03-01,1900-01-01,9999-12-31,Y
+524,C00474,Omar Jansen,omar.474@example.com,enterprise,NL,Amsterdam,2024-06-05,1900-01-01,9999-12-31,Y
+525,C00475,Hana Smit,hana.475@example.com,consumer,DE,Berlin,2023-04-05,1900-01-01,9999-12-31,Y
+526,C00476,Chen Nguyen,chen.476@example.com,consumer,BE,Ghent,2025-11-07,1900-01-01,9999-12-31,Y
+527,C00477,Julia Bakker,julia.477@example.com,consumer,NL,Amsterdam,2024-03-10,1900-01-01,9999-12-31,Y
+528,C00478,Yara de Vries,yara.478@example.com,enterprise,NL,Utrecht,2023-05-22,1900-01-01,9999-12-31,Y
+529,C00479,Bram de Vries,bram.479@example.com,consumer,VN,Ha Noi,2025-03-03,1900-01-01,9999-12-31,Y
+530,C00480,Nadia Novak,nadia.480@example.com,enterprise,NL,Amsterdam,2026-01-31,1900-01-01,9999-12-31,Y
+531,C00481,Hana Kowalski,hana.481@example.com,consumer,FR,Paris,2024-08-21,1900-01-01,9999-12-31,Y
+532,C00482,Nadia Dubois,nadia.482@example.com,enterprise,FR,Lyon,2023-08-09,1900-01-01,9999-12-31,Y
+533,C00483,Vera Rossi,vera.483@example.com,consumer,DE,Berlin,2024-03-19,1900-01-01,9999-12-31,Y
+534,C00484,Chen Visser,,consumer,BE,Ghent,2022-10-10,1900-01-01,9999-12-31,Y
+535,C00485,Omar Jansen,omar.485@example.com,smb,VN,Ho Chi Minh City,2023-05-05,1900-01-01,9999-12-31,Y
+536,C00486,Anna Silva,anna.486@example.com,consumer,DE,Berlin,2022-11-20,1900-01-01,9999-12-31,Y
+537,C00487,Wout Kowalski,wout.487@example.com,smb,FR,Lyon,2022-10-11,1900-01-01,9999-12-31,Y
+538,C00488,Karel Rossi,karel.488@example.com,smb,NL,Utrecht,2023-12-16,1900-01-01,9999-12-31,Y
+539,C00489,Umut Silva,umut.489@example.com,smb,DE,Hamburg,2023-05-25,1900-01-01,9999-12-31,Y
+540,C00490,Sven Novak,sven.490@example.com,consumer,FR,Lyon,2024-05-14,1900-01-01,9999-12-31,Y
+541,C00491,Anna Nguyen,anna.491@example.com,consumer,VN,Ho Chi Minh City,2025-07-03,1900-01-01,9999-12-31,Y
+542,C00492,Rosa Rossi,rosa.492@example.com,consumer,BE,Brussels,2025-01-09,1900-01-01,9999-12-31,Y
+543,C00493,Emre Okafor,emre.493@example.com,enterprise,FR,Lyon,2025-02-23,1900-01-01,9999-12-31,Y
+544,C00494,Diana Larsen,diana.494@example.com,enterprise,DE,Berlin,2024-02-01,1900-01-01,9999-12-31,Y
+545,C00495,Fatima Novak,fatima.495@example.com,consumer,DE,Berlin,2022-10-04,1900-01-01,9999-12-31,Y
+546,C00496,Yara Visser,yara.496@example.com,smb,FR,Paris,2023-04-19,1900-01-01,9999-12-31,Y
+547,C00497,Diana Nguyen,diana.497@example.com,consumer,NL,Amsterdam,2023-08-25,1900-01-01,2025-12-17,N
+548,C00497,Diana Nguyen,diana.497@example.com,smb,NL,Amsterdam,2023-08-25,2025-12-17,9999-12-31,Y
+549,C00498,Quinn Dubois,quinn.498@example.com,consumer,NL,,2024-06-30,1900-01-01,9999-12-31,Y
+550,C00499,Linh Silva,linh.499@example.com,consumer,FR,Lyon,2023-08-27,1900-01-01,2025-07-16,N
+551,C00499,Linh Silva,linh.499@example.com,enterprise,FR,Lyon,2023-08-27,2025-07-16,9999-12-31,Y
+552,C00500,Pia Tran,pia.500@example.com,consumer,NL,Rotterdam,2025-05-07,1900-01-01,9999-12-31,Y
+553,C00501,Julia Haddad,julia.501@example.com,consumer,DE,Hamburg,2023-07-01,1900-01-01,9999-12-31,Y
+554,C00502,Diana Bakker,diana.502@example.com,consumer,NL,Rotterdam,2026-04-23,1900-01-01,9999-12-31,Y
+555,C00503,Umut Dubois,umut.503@example.com,consumer,DE,Hamburg,2023-06-15,1900-01-01,9999-12-31,Y
+556,C00504,Guido Visser,guido.504@example.com,smb,FR,Lyon,2025-08-18,1900-01-01,9999-12-31,Y
+557,C00505,Hana Kowalski,hana.505@example.com,consumer,BE,Brussels,2024-10-07,1900-01-01,9999-12-31,Y
+558,C00506,Anna Dubois,anna.506@example.com,consumer,DE,Hamburg,2023-07-22,1900-01-01,9999-12-31,Y
+559,C00507,Diana Dubois,diana.507@example.com,consumer,DE,Berlin,2025-06-08,1900-01-01,9999-12-31,Y
+560,C00508,Fatima Jansen,fatima.508@example.com,smb,DE,Hamburg,2025-05-01,1900-01-01,9999-12-31,Y
+561,C00509,Julia Smit,julia.509@example.com,consumer,VN,Ha Noi,2023-06-26,1900-01-01,9999-12-31,Y
+562,C00510,Quinn Peeters,quinn.510@example.com,smb,DE,Hamburg,2025-04-03,1900-01-01,9999-12-31,Y
+563,C00511,Bram Nguyen,bram.511@example.com,consumer,FR,Paris,2023-02-16,1900-01-01,9999-12-31,Y
+564,C00512,Nadia Novak,nadia.512@example.com,consumer,FR,Paris,2023-10-05,1900-01-01,9999-12-31,Y
+565,C00513,Chen Dubois,chen.513@example.com,consumer,NL,Utrecht,2024-09-30,1900-01-01,9999-12-31,Y
+566,C00514,Nadia Haddad,nadia.514@example.com,enterprise,NL,Amsterdam,2023-12-22,1900-01-01,9999-12-31,Y
+567,C00515,Fatima Novak,fatima.515@example.com,consumer,BE,Brussels,2025-09-06,1900-01-01,9999-12-31,Y
+568,C00516,Diana Haddad,diana.516@example.com,consumer,DE,Berlin,2025-10-01,1900-01-01,9999-12-31,Y
+569,C00517,Nadia Dubois,nadia.517@example.com,consumer,VN,Ha Noi,2024-11-17,1900-01-01,9999-12-31,Y
+570,C00518,Yara Rossi,yara.518@example.com,smb,NL,Rotterdam,2022-09-15,1900-01-01,9999-12-31,Y
+571,C00519,Fatima Smit,fatima.519@example.com,consumer,NL,Rotterdam,2025-08-23,1900-01-01,9999-12-31,Y
+572,C00520,Quinn Visser,quinn.520@example.com,smb,NL,Amsterdam,2026-03-12,1900-01-01,9999-12-31,Y
+573,C00521,Nadia Kowalski,nadia.521@example.com,smb,BE,Brussels,2024-08-08,1900-01-01,9999-12-31,Y
+574,C00522,Vera Kowalski,vera.522@example.com,consumer,FR,Lyon,2023-12-06,1900-01-01,9999-12-31,Y
+575,C00523,Wout Peeters,wout.523@example.com,smb,DE,Berlin,2025-01-28,1900-01-01,9999-12-31,Y
+576,C00524,Anna Kowalski,anna.524@example.com,consumer,FR,Paris,2022-09-03,1900-01-01,9999-12-31,Y
+577,C00525,Linh Nguyen,linh.525@example.com,consumer,DE,Berlin,2024-11-17,1900-01-01,9999-12-31,Y
+578,C00526,Emre Müller,emre.526@example.com,smb,BE,Ghent,2023-11-04,1900-01-01,9999-12-31,Y
+579,C00527,Guido Larsen,guido.527@example.com,consumer,BE,Ghent,2026-03-11,1900-01-01,9999-12-31,Y
+580,C00528,Anna Tran,anna.528@example.com,consumer,VN,Ho Chi Minh City,2025-10-22,1900-01-01,9999-12-31,Y
+581,C00529,Karel Kowalski,karel.529@example.com,consumer,NL,Amsterdam,2024-12-22,1900-01-01,9999-12-31,Y
+582,C00530,Linh Tran,linh.530@example.com,consumer,BE,Ghent,2025-02-07,1900-01-01,9999-12-31,Y
+583,C00531,Yara Okafor,yara.531@example.com,consumer,BE,Brussels,2023-05-08,1900-01-01,9999-12-31,Y
+584,C00532,Omar de Vries,,smb,NL,Utrecht,2024-04-01,1900-01-01,9999-12-31,Y
+585,C00533,Yara de Vries,yara.533@example.com,consumer,BE,Ghent,2025-07-06,1900-01-01,9999-12-31,Y
+586,C00534,Diana Visser,diana.534@example.com,smb,FR,Paris,2026-05-05,1900-01-01,9999-12-31,Y
+587,C00535,Tessa Silva,tessa.535@example.com,consumer,VN,Ho Chi Minh City,2022-08-28,1900-01-01,2025-07-25,N
+588,C00535,Tessa Silva,tessa.535@example.com,smb,VN,Ho Chi Minh City,2022-08-28,2025-07-25,9999-12-31,Y
+589,C00536,Julia García,julia.536@example.com,consumer,BE,,2025-12-08,1900-01-01,9999-12-31,Y
+590,C00537,Vera Nguyen,vera.537@example.com,consumer,NL,Rotterdam,2022-08-25,1900-01-01,9999-12-31,Y
+591,C00538,Diana Jansen,diana.538@example.com,smb,NL,Rotterdam,2025-05-24,1900-01-01,9999-12-31,Y
+592,C00539,Fatima Nguyen,fatima.539@example.com,consumer,BE,Ghent,2026-05-08,1900-01-01,9999-12-31,Y
+593,C00540,Julia Tran,julia.540@example.com,consumer,BE,,2024-10-01,1900-01-01,9999-12-31,Y
+594,C00541,Rosa Novak,rosa.541@example.com,enterprise,NL,Amsterdam,2026-05-07,1900-01-01,9999-12-31,Y
+595,C00542,Emre Novak,emre.542@example.com,consumer,NL,Amsterdam,2022-11-28,1900-01-01,9999-12-31,Y
+596,C00543,Omar Okafor,omar.543@example.com,consumer,FR,Paris,2026-01-06,1900-01-01,9999-12-31,Y
+597,C00544,Mateo Okafor,mateo.544@example.com,consumer,NL,Utrecht,2023-11-21,1900-01-01,9999-12-31,Y
+598,C00545,Pia Larsen,pia.545@example.com,consumer,DE,Berlin,2025-05-16,1900-01-01,9999-12-31,Y
+599,C00546,Mateo Okafor,mateo.546@example.com,consumer,FR,Paris,2026-05-14,1900-01-01,9999-12-31,Y
+600,C00547,Chen Dubois,chen.547@example.com,consumer,FR,Paris,2023-02-02,1900-01-01,9999-12-31,Y
+601,C00548,Vera de Vries,vera.548@example.com,consumer,FR,Paris,2025-05-15,1900-01-01,9999-12-31,Y
+602,C00549,Emre Visser,emre.549@example.com,consumer,VN,Ho Chi Minh City,2023-09-24,1900-01-01,9999-12-31,Y
+603,C00550,Guido Müller,guido.550@example.com,consumer,DE,Hamburg,2022-11-25,1900-01-01,9999-12-31,Y
+604,C00551,Linh Tran,linh.551@example.com,consumer,FR,Lyon,2025-12-12,1900-01-01,9999-12-31,Y
+605,C00552,Chen Jansen,chen.552@example.com,smb,FR,Paris,2022-08-11,1900-01-01,9999-12-31,Y
+606,C00553,Chen Tran,chen.553@example.com,consumer,NL,Rotterdam,2023-02-24,1900-01-01,9999-12-31,Y
+607,C00554,Rosa Kowalski,rosa.554@example.com,consumer,BE,Brussels,2024-08-31,1900-01-01,9999-12-31,Y
+608,C00555,Umut Dubois,umut.555@example.com,enterprise,FR,Lyon,2026-05-13,1900-01-01,9999-12-31,Y
+609,C00556,Rosa Kowalski,rosa.556@example.com,consumer,BE,Brussels,2025-02-19,1900-01-01,2025-07-12,N
+610,C00556,Rosa Kowalski,rosa.556@example.com,smb,BE,Brussels,2025-02-19,2025-07-12,9999-12-31,Y
+611,C00557,Julia García,julia.557@example.com,consumer,BE,Ghent,2024-06-25,1900-01-01,9999-12-31,Y
+612,C00558,Ivo Visser,ivo.558@example.com,consumer,DE,Berlin,2023-07-11,1900-01-01,9999-12-31,Y
+613,C00559,Nadia Dubois,nadia.559@example.com,consumer,FR,Paris,2024-02-20,1900-01-01,9999-12-31,Y
+614,C00560,Karel Bakker,karel.560@example.com,consumer,DE,Berlin,2025-05-23,1900-01-01,9999-12-31,Y
+615,C00561,Hana de Vries,hana.561@example.com,consumer,BE,Brussels,2026-01-14,1900-01-01,9999-12-31,Y
+616,C00562,Hana Silva,hana.562@example.com,consumer,BE,Brussels,2023-01-23,1900-01-01,9999-12-31,Y
+617,C00563,Sven Jansen,sven.563@example.com,smb,DE,Hamburg,2026-04-16,1900-01-01,9999-12-31,Y
+618,C00564,Rosa Jansen,rosa.564@example.com,consumer,DE,Berlin,2025-09-22,1900-01-01,9999-12-31,Y
+619,C00565,Hana Visser,hana.565@example.com,consumer,DE,Berlin,2025-02-21,1900-01-01,9999-12-31,Y
+620,C00566,Wout Bakker,wout.566@example.com,smb,VN,Ho Chi Minh City,2023-08-23,1900-01-01,9999-12-31,Y
+621,C00567,Chen Tran,chen.567@example.com,consumer,BE,Ghent,2023-08-12,1900-01-01,9999-12-31,Y
+622,C00568,Hana Larsen,hana.568@example.com,enterprise,FR,Lyon,2025-03-07,1900-01-01,2025-08-10,N
+623,C00568,Hana Larsen,hana.568@example.com,consumer,FR,Lyon,2025-03-07,2025-08-10,9999-12-31,Y
+624,C00569,Quinn Silva,quinn.569@example.com,consumer,DE,Berlin,2024-02-24,1900-01-01,9999-12-31,Y
+625,C00570,Yara Larsen,yara.570@example.com,smb,BE,Ghent,2023-11-23,1900-01-01,9999-12-31,Y
+626,C00571,Nadia Müller,nadia.571@example.com,consumer,DE,Berlin,2023-09-07,1900-01-01,9999-12-31,Y
+627,C00572,Pia Kowalski,pia.572@example.com,smb,BE,Ghent,2024-03-21,1900-01-01,2025-04-24,N
+628,C00572,Pia Kowalski,pia.572@example.com,enterprise,BE,Ghent,2024-03-21,2025-04-24,9999-12-31,Y
+629,C00573,Rosa Rossi,rosa.573@example.com,consumer,DE,Berlin,2022-07-16,1900-01-01,9999-12-31,Y
+630,C00574,Fatima Bakker,fatima.574@example.com,consumer,DE,Hamburg,2023-02-26,1900-01-01,9999-12-31,Y
+631,C00575,Nadia Smit,nadia.575@example.com,consumer,NL,Utrecht,2024-10-20,1900-01-01,2026-02-22,N
+632,C00575,Nadia Smit,nadia.575@example.com,enterprise,NL,Utrecht,2024-10-20,2026-02-22,9999-12-31,Y
+633,C00576,Linh Jansen,linh.576@example.com,consumer,NL,,2024-07-04,1900-01-01,9999-12-31,Y
+634,C00577,Yara Jansen,yara.577@example.com,enterprise,DE,Berlin,2025-04-06,1900-01-01,9999-12-31,Y
+635,C00578,Karel Peeters,karel.578@example.com,enterprise,VN,Ho Chi Minh City,2025-05-10,1900-01-01,9999-12-31,Y
+636,C00579,Omar Dubois,omar.579@example.com,consumer,BE,Brussels,2025-03-05,1900-01-01,9999-12-31,Y
+637,C00580,Hana Visser,hana.580@example.com,smb,VN,Ha Noi,2023-12-11,1900-01-01,9999-12-31,Y
+638,C00581,Omar Novak,omar.581@example.com,consumer,DE,,2025-07-17,1900-01-01,9999-12-31,Y
+639,C00582,Rosa Haddad,rosa.582@example.com,consumer,FR,Paris,2025-04-25,1900-01-01,9999-12-31,Y
+640,C00583,Mateo Bakker,mateo.583@example.com,consumer,DE,,2024-01-27,1900-01-01,9999-12-31,Y
+641,C00584,Ivo Smit,ivo.584@example.com,smb,NL,Utrecht,2024-07-31,1900-01-01,9999-12-31,Y
+642,C00585,Ivo Jansen,ivo.585@example.com,consumer,NL,Utrecht,2022-10-03,1900-01-01,2025-05-04,N
+643,C00585,Ivo Jansen,ivo.585@example.com,enterprise,NL,Utrecht,2022-10-03,2025-05-04,9999-12-31,Y
+644,C00586,Nadia Dubois,nadia.586@example.com,smb,DE,Berlin,2023-10-06,1900-01-01,9999-12-31,Y
+645,C00587,Pia Larsen,pia.587@example.com,consumer,VN,Ha Noi,2026-01-07,1900-01-01,9999-12-31,Y
+646,C00588,Karel Haddad,karel.588@example.com,consumer,DE,Hamburg,2024-08-19,1900-01-01,9999-12-31,Y
+647,C00589,Omar Bakker,omar.589@example.com,smb,VN,Ha Noi,2023-08-16,1900-01-01,9999-12-31,Y
+648,C00590,Fatima Kowalski,fatima.590@example.com,consumer,BE,Brussels,2024-12-07,1900-01-01,9999-12-31,Y
+649,C00591,Guido Smit,guido.591@example.com,consumer,DE,Berlin,2025-12-19,1900-01-01,9999-12-31,Y
+650,C00592,Tessa Smit,tessa.592@example.com,smb,DE,Berlin,2025-04-04,1900-01-01,9999-12-31,Y
+651,C00593,Diana Haddad,diana.593@example.com,smb,DE,Berlin,2023-05-01,1900-01-01,9999-12-31,Y
+652,C00594,Julia Nguyen,julia.594@example.com,consumer,VN,Ha Noi,2025-01-09,1900-01-01,9999-12-31,Y
+653,C00595,Nadia García,nadia.595@example.com,enterprise,NL,Rotterdam,2024-10-25,1900-01-01,9999-12-31,Y
+654,C00596,Linh Rossi,linh.596@example.com,enterprise,BE,Ghent,2023-06-20,1900-01-01,9999-12-31,Y
+655,C00597,Guido Novak,guido.597@example.com,consumer,FR,Paris,2024-05-04,1900-01-01,9999-12-31,Y
+656,C00598,Emre Rossi,emre.598@example.com,consumer,VN,Ho Chi Minh City,2025-09-23,1900-01-01,2025-10-23,N
+657,C00598,Emre Rossi,emre.598@example.com,enterprise,VN,Ho Chi Minh City,2025-09-23,2025-10-23,9999-12-31,Y
+658,C00599,Tessa Okafor,tessa.599@example.com,smb,DE,Hamburg,2024-12-13,1900-01-01,9999-12-31,Y
+659,C00600,Emre García,emre.600@example.com,consumer,FR,Lyon,2024-12-31,1900-01-01,9999-12-31,Y
+660,C00601,Chen Bakker,chen.601@example.com,smb,FR,Lyon,2024-05-28,1900-01-01,9999-12-31,Y
+661,C00602,Rosa Novak,rosa.602@example.com,smb,VN,Ha Noi,2026-02-14,1900-01-01,9999-12-31,Y
+662,C00603,Tessa Peeters,tessa.603@example.com,consumer,VN,Ha Noi,2022-11-20,1900-01-01,9999-12-31,Y
+663,C00604,Wout de Vries,wout.604@example.com,consumer,DE,Berlin,2023-09-06,1900-01-01,9999-12-31,Y
+664,C00605,Umut Haddad,umut.605@example.com,consumer,DE,Berlin,2026-02-16,1900-01-01,9999-12-31,Y
+665,C00606,Fatima Smit,fatima.606@example.com,enterprise,VN,Ha Noi,2026-02-12,1900-01-01,9999-12-31,Y
+666,C00607,Diana García,diana.607@example.com,consumer,VN,Ho Chi Minh City,2026-01-12,1900-01-01,9999-12-31,Y
+667,C00608,Chen Haddad,chen.608@example.com,consumer,BE,Ghent,2023-12-21,1900-01-01,9999-12-31,Y
+668,C00609,Hana Smit,hana.609@example.com,consumer,NL,Rotterdam,2024-11-07,1900-01-01,9999-12-31,Y
+669,C00610,Anna García,anna.610@example.com,consumer,DE,Hamburg,2026-03-10,1900-01-01,9999-12-31,Y
+670,C00611,Omar Silva,omar.611@example.com,consumer,VN,Ha Noi,2024-08-08,1900-01-01,9999-12-31,Y
+671,C00612,Emre Müller,emre.612@example.com,smb,BE,,2022-12-31,1900-01-01,9999-12-31,Y
+672,C00613,Yara Visser,yara.613@example.com,consumer,FR,Paris,2026-01-08,1900-01-01,9999-12-31,Y
+673,C00614,Chen Kowalski,chen.614@example.com,enterprise,FR,Lyon,2025-04-12,1900-01-01,9999-12-31,Y
+674,C00615,Guido Larsen,guido.615@example.com,consumer,BE,Brussels,2024-07-18,1900-01-01,9999-12-31,Y
+675,C00616,Wout Smit,wout.616@example.com,consumer,NL,Rotterdam,2025-04-12,1900-01-01,9999-12-31,Y
+676,C00617,Nadia Dubois,nadia.617@example.com,consumer,DE,Hamburg,2023-10-06,1900-01-01,9999-12-31,Y
+677,C00618,Julia Nguyen,julia.618@example.com,consumer,DE,Hamburg,2024-06-08,1900-01-01,9999-12-31,Y
+678,C00619,Nadia Müller,nadia.619@example.com,smb,BE,Brussels,2025-05-01,1900-01-01,9999-12-31,Y
+679,C00620,Pia Visser,pia.620@example.com,consumer,DE,Berlin,2023-06-08,1900-01-01,9999-12-31,Y
+680,C00621,Sven Tran,sven.621@example.com,consumer,DE,Hamburg,2023-08-13,1900-01-01,9999-12-31,Y
+681,C00622,Vera Haddad,vera.622@example.com,consumer,BE,Ghent,2025-08-01,1900-01-01,9999-12-31,Y
+682,C00623,Ivo de Vries,ivo.623@example.com,consumer,VN,Ho Chi Minh City,2024-05-20,1900-01-01,9999-12-31,Y
+683,C00624,Fatima Haddad,fatima.624@example.com,consumer,FR,Lyon,2022-12-24,1900-01-01,9999-12-31,Y
+684,C00625,Chen Novak,chen.625@example.com,consumer,FR,Lyon,2024-08-03,1900-01-01,9999-12-31,Y
+685,C00626,Quinn Müller,quinn.626@example.com,consumer,DE,Hamburg,2025-12-13,1900-01-01,9999-12-31,Y
+686,C00627,Rosa Larsen,rosa.627@example.com,consumer,FR,Paris,2025-03-26,1900-01-01,2026-03-27,N
+687,C00627,Rosa Larsen,rosa.627@example.com,smb,FR,Paris,2025-03-26,2026-03-27,9999-12-31,Y
+688,C00628,Vera Visser,vera.628@example.com,consumer,DE,Berlin,2025-08-30,1900-01-01,9999-12-31,Y
+689,C00629,Diana Müller,diana.629@example.com,consumer,NL,Utrecht,2024-10-14,1900-01-01,9999-12-31,Y
+690,C00630,Wout Novak,wout.630@example.com,smb,VN,Ha Noi,2025-04-25,1900-01-01,9999-12-31,Y
+691,C00631,Emre Bakker,emre.631@example.com,smb,DE,Hamburg,2024-10-16,1900-01-01,9999-12-31,Y
+692,C00632,Chen Okafor,chen.632@example.com,smb,DE,Hamburg,2026-02-13,1900-01-01,9999-12-31,Y
+693,C00633,Mateo Peeters,mateo.633@example.com,consumer,DE,Hamburg,2023-03-13,1900-01-01,9999-12-31,Y
+694,C00634,Anna Kowalski,anna.634@example.com,consumer,BE,Ghent,2025-02-25,1900-01-01,9999-12-31,Y
+695,C00635,Tessa Kowalski,tessa.635@example.com,consumer,BE,Ghent,2022-09-09,1900-01-01,9999-12-31,Y
+696,C00636,Linh Dubois,linh.636@example.com,consumer,FR,Lyon,2024-06-14,1900-01-01,9999-12-31,Y
+697,C00637,Wout Müller,wout.637@example.com,consumer,FR,Lyon,2023-12-15,1900-01-01,9999-12-31,Y
+698,C00638,Fatima Smit,fatima.638@example.com,smb,VN,Ha Noi,2023-06-21,1900-01-01,9999-12-31,Y
+699,C00639,Sven Novak,sven.639@example.com,smb,BE,Ghent,2024-12-19,1900-01-01,9999-12-31,Y
+700,C00640,Emre Novak,emre.640@example.com,consumer,DE,Berlin,2025-09-01,1900-01-01,9999-12-31,Y
+701,C00641,Yara Larsen,yara.641@example.com,consumer,DE,Berlin,2025-03-26,1900-01-01,9999-12-31,Y
+702,C00642,Umut Tran,umut.642@example.com,consumer,DE,Berlin,2025-09-28,1900-01-01,9999-12-31,Y
+703,C00643,Chen de Vries,chen.643@example.com,consumer,BE,Ghent,2024-10-17,1900-01-01,9999-12-31,Y
+704,C00644,Anna Tran,anna.644@example.com,consumer,DE,Berlin,2025-05-12,1900-01-01,9999-12-31,Y
+705,C00645,Julia Dubois,julia.645@example.com,smb,BE,Ghent,2025-04-20,1900-01-01,2025-08-20,N
+706,C00645,Julia Dubois,julia.645@example.com,enterprise,BE,Ghent,2025-04-20,2025-08-20,9999-12-31,Y
+707,C00646,Ivo Müller,ivo.646@example.com,consumer,NL,Rotterdam,2024-10-06,1900-01-01,9999-12-31,Y
+708,C00647,Quinn Novak,quinn.647@example.com,consumer,NL,Rotterdam,2025-08-16,1900-01-01,9999-12-31,Y
+709,C00648,Omar Haddad,omar.648@example.com,consumer,DE,Hamburg,2023-06-13,1900-01-01,9999-12-31,Y
+710,C00649,Wout Larsen,wout.649@example.com,consumer,NL,Amsterdam,2024-10-27,1900-01-01,9999-12-31,Y
+711,C00650,Hana Rossi,hana.650@example.com,consumer,BE,Brussels,2023-10-21,1900-01-01,9999-12-31,Y
+712,C00651,Pia Müller,,consumer,VN,Ho Chi Minh City,2023-01-11,1900-01-01,9999-12-31,Y
+713,C00652,Bram Silva,bram.652@example.com,smb,NL,Rotterdam,2025-08-14,1900-01-01,9999-12-31,Y
+714,C00653,Chen Müller,chen.653@example.com,consumer,VN,Ha Noi,2023-08-03,1900-01-01,9999-12-31,Y
+715,C00654,Ivo Jansen,ivo.654@example.com,consumer,BE,Ghent,2023-04-25,1900-01-01,9999-12-31,Y
+716,C00655,Bram Visser,bram.655@example.com,consumer,DE,Berlin,2023-11-19,1900-01-01,9999-12-31,Y
+717,C00656,Julia Okafor,julia.656@example.com,smb,FR,Paris,2025-05-25,1900-01-01,9999-12-31,Y
+718,C00657,Sven Visser,sven.657@example.com,consumer,NL,,2025-01-14,1900-01-01,9999-12-31,Y
+719,C00658,Julia de Vries,julia.658@example.com,enterprise,BE,Ghent,2024-09-12,1900-01-01,9999-12-31,Y
+720,C00659,Nadia Dubois,nadia.659@example.com,consumer,FR,Paris,2025-04-17,1900-01-01,9999-12-31,Y
+721,C00660,Nadia Smit,nadia.660@example.com,consumer,NL,Rotterdam,2023-02-03,1900-01-01,9999-12-31,Y
+722,C00661,Rosa Rossi,rosa.661@example.com,consumer,DE,Berlin,2023-09-26,1900-01-01,9999-12-31,Y
+723,C00662,Linh Müller,,consumer,DE,Berlin,2025-10-13,1900-01-01,9999-12-31,Y
+724,C00663,Chen García,chen.663@example.com,consumer,FR,Lyon,2025-05-24,1900-01-01,9999-12-31,Y
+725,C00664,Yara Bakker,yara.664@example.com,consumer,DE,Hamburg,2023-03-04,1900-01-01,9999-12-31,Y
+726,C00665,Vera Larsen,vera.665@example.com,consumer,DE,Berlin,2023-12-17,1900-01-01,9999-12-31,Y
+727,C00666,Mateo Novak,mateo.666@example.com,consumer,FR,Paris,2026-03-14,1900-01-01,9999-12-31,Y
+728,C00667,Guido de Vries,guido.667@example.com,smb,DE,Berlin,2023-10-02,1900-01-01,9999-12-31,Y
+729,C00668,Sven Müller,sven.668@example.com,consumer,NL,Utrecht,2022-10-17,1900-01-01,9999-12-31,Y
+730,C00669,Emre Kowalski,emre.669@example.com,consumer,DE,Hamburg,2024-03-30,1900-01-01,9999-12-31,Y
+731,C00670,Mateo Tran,mateo.670@example.com,consumer,NL,Utrecht,2025-05-03,1900-01-01,9999-12-31,Y
+732,C00671,Rosa Müller,rosa.671@example.com,consumer,NL,Amsterdam,2024-11-14,1900-01-01,9999-12-31,Y
+733,C00672,Bram Nguyen,bram.672@example.com,consumer,NL,Utrecht,2023-01-05,1900-01-01,9999-12-31,Y
+734,C00673,Anna Müller,anna.673@example.com,smb,VN,Ha Noi,2024-06-22,1900-01-01,9999-12-31,Y
+735,C00674,Umut Rossi,umut.674@example.com,consumer,VN,Ho Chi Minh City,2026-01-23,1900-01-01,9999-12-31,Y
+736,C00675,Guido Visser,guido.675@example.com,consumer,DE,Berlin,2022-09-19,1900-01-01,9999-12-31,Y
+737,C00676,Yara Jansen,yara.676@example.com,consumer,NL,Rotterdam,2026-03-23,1900-01-01,9999-12-31,Y
+738,C00677,Diana García,diana.677@example.com,consumer,BE,Ghent,2023-01-08,1900-01-01,9999-12-31,Y
+739,C00678,Bram Müller,bram.678@example.com,enterprise,VN,Ha Noi,2024-03-29,1900-01-01,9999-12-31,Y
+740,C00679,Quinn García,quinn.679@example.com,consumer,BE,Brussels,2025-11-25,1900-01-01,2026-04-13,N
+741,C00679,Quinn García,quinn.679@example.com,enterprise,BE,Brussels,2025-11-25,2026-04-13,9999-12-31,Y
+742,C00680,Mateo Rossi,mateo.680@example.com,smb,FR,Lyon,2025-11-19,1900-01-01,9999-12-31,Y
+743,C00681,Ivo Tran,ivo.681@example.com,smb,FR,Lyon,2025-10-31,1900-01-01,9999-12-31,Y
+744,C00682,Hana Dubois,hana.682@example.com,consumer,DE,Berlin,2025-04-24,1900-01-01,9999-12-31,Y
+745,C00683,Omar Okafor,omar.683@example.com,enterprise,BE,Ghent,2026-02-03,1900-01-01,9999-12-31,Y
+746,C00684,Guido Kowalski,guido.684@example.com,enterprise,FR,Lyon,2023-08-08,1900-01-01,9999-12-31,Y
+747,C00685,Sven de Vries,sven.685@example.com,consumer,FR,Lyon,2025-06-20,1900-01-01,2025-08-06,N
+748,C00685,Sven de Vries,sven.685@example.com,enterprise,FR,Lyon,2025-06-20,2025-08-06,9999-12-31,Y
+749,C00686,Wout Visser,wout.686@example.com,consumer,NL,Rotterdam,2024-06-05,1900-01-01,9999-12-31,Y
+750,C00687,Sven Nguyen,sven.687@example.com,consumer,NL,Utrecht,2025-07-06,1900-01-01,9999-12-31,Y
+751,C00688,Linh Haddad,linh.688@example.com,consumer,NL,Amsterdam,2025-12-05,1900-01-01,9999-12-31,Y
+752,C00689,Karel Jansen,karel.689@example.com,enterprise,NL,Rotterdam,2024-12-06,1900-01-01,2025-07-09,N
+753,C00689,Karel Jansen,karel.689@example.com,smb,NL,Rotterdam,2024-12-06,2025-07-09,9999-12-31,Y
+754,C00690,Emre Haddad,emre.690@example.com,consumer,BE,Brussels,2025-07-22,1900-01-01,9999-12-31,Y
+755,C00691,Quinn Haddad,quinn.691@example.com,consumer,NL,Utrecht,2024-08-28,1900-01-01,9999-12-31,Y
+756,C00692,Vera Smit,vera.692@example.com,consumer,VN,Ho Chi Minh City,2024-10-17,1900-01-01,9999-12-31,Y
+757,C00693,Fatima Bakker,fatima.693@example.com,consumer,FR,Paris,2024-03-04,1900-01-01,9999-12-31,Y
+758,C00694,Emre Rossi,emre.694@example.com,consumer,FR,Lyon,2026-04-10,1900-01-01,9999-12-31,Y
+759,C00695,Linh Rossi,linh.695@example.com,smb,DE,Hamburg,2025-06-10,1900-01-01,9999-12-31,Y
+760,C00696,Julia Bakker,julia.696@example.com,consumer,FR,Lyon,2023-04-22,1900-01-01,9999-12-31,Y
+761,C00697,Nadia Kowalski,nadia.697@example.com,consumer,FR,Lyon,2025-06-21,1900-01-01,9999-12-31,Y
+762,C00698,Omar Silva,omar.698@example.com,consumer,BE,Ghent,2024-11-23,1900-01-01,9999-12-31,Y
+763,C00699,Ivo Smit,ivo.699@example.com,consumer,DE,Berlin,2022-08-11,1900-01-01,9999-12-31,Y
+764,C00700,Yara Haddad,yara.700@example.com,consumer,VN,Ho Chi Minh City,2022-08-12,1900-01-01,9999-12-31,Y
+765,C00701,Bram Tran,bram.701@example.com,consumer,DE,Berlin,2023-05-11,1900-01-01,9999-12-31,Y
+766,C00702,Emre Silva,emre.702@example.com,consumer,NL,Utrecht,2023-08-14,1900-01-01,9999-12-31,Y
+767,C00703,Wout Tran,wout.703@example.com,smb,VN,Ho Chi Minh City,2023-12-14,1900-01-01,9999-12-31,Y
+768,C00704,Guido Bakker,guido.704@example.com,consumer,VN,Ha Noi,2025-12-24,1900-01-01,2026-01-23,N
+769,C00704,Guido Bakker,guido.704@example.com,enterprise,VN,Ha Noi,2025-12-24,2026-01-23,9999-12-31,Y
+770,C00705,Mateo Tran,mateo.705@example.com,consumer,VN,Ho Chi Minh City,2025-12-27,1900-01-01,2026-01-26,N
+771,C00705,Mateo Tran,mateo.705@example.com,smb,VN,Ho Chi Minh City,2025-12-27,2026-01-26,9999-12-31,Y
+772,C00706,Diana Visser,diana.706@example.com,smb,NL,Rotterdam,2023-11-14,1900-01-01,9999-12-31,Y
+773,C00707,Hana Smit,hana.707@example.com,consumer,BE,Ghent,2024-09-30,1900-01-01,9999-12-31,Y
+774,C00708,Nadia Tran,nadia.708@example.com,smb,BE,Ghent,2025-07-26,1900-01-01,9999-12-31,Y
+775,C00709,Hana Bakker,hana.709@example.com,consumer,VN,Ha Noi,2025-06-16,1900-01-01,9999-12-31,Y
+776,C00710,Fatima Nguyen,fatima.710@example.com,smb,FR,Paris,2023-01-29,1900-01-01,9999-12-31,Y
+777,C00711,Julia Kowalski,julia.711@example.com,consumer,VN,Ha Noi,2025-07-29,1900-01-01,9999-12-31,Y
+778,C00712,Vera Silva,vera.712@example.com,consumer,BE,Ghent,2026-03-12,1900-01-01,9999-12-31,Y
+779,C00713,Sven Visser,sven.713@example.com,consumer,FR,Paris,2025-07-28,1900-01-01,9999-12-31,Y
+780,C00714,Ivo Smit,ivo.714@example.com,smb,NL,Utrecht,2025-04-10,1900-01-01,9999-12-31,Y
+781,C00715,Nadia Peeters,nadia.715@example.com,smb,FR,Paris,2024-12-01,1900-01-01,9999-12-31,Y
+782,C00716,Bram Larsen,bram.716@example.com,consumer,BE,Brussels,2023-11-02,1900-01-01,9999-12-31,Y
+783,C00717,Guido Kowalski,guido.717@example.com,smb,BE,Ghent,2023-03-21,1900-01-01,2025-10-29,N
+784,C00717,Guido Kowalski,guido.717@example.com,enterprise,BE,Ghent,2023-03-21,2025-10-29,9999-12-31,Y
+785,C00718,Pia Visser,pia.718@example.com,smb,VN,Ho Chi Minh City,2022-10-22,1900-01-01,9999-12-31,Y
+786,C00719,Rosa Peeters,rosa.719@example.com,consumer,VN,Ha Noi,2026-02-28,1900-01-01,9999-12-31,Y
+787,C00720,Sven Okafor,sven.720@example.com,smb,NL,Utrecht,2023-04-28,1900-01-01,9999-12-31,Y
+788,C00721,Rosa de Vries,rosa.721@example.com,consumer,VN,Ho Chi Minh City,2024-06-09,1900-01-01,9999-12-31,Y
+789,C00722,Sven Rossi,sven.722@example.com,consumer,DE,Hamburg,2025-02-06,1900-01-01,9999-12-31,Y
+790,C00723,Vera Smit,vera.723@example.com,consumer,DE,Hamburg,2023-01-29,1900-01-01,9999-12-31,Y
+791,C00724,Rosa Dubois,rosa.724@example.com,consumer,FR,Paris,2025-03-04,1900-01-01,2026-01-30,N
+792,C00724,Rosa Dubois,rosa.724@example.com,smb,FR,Paris,2025-03-04,2026-01-30,9999-12-31,Y
+793,C00725,Emre Dubois,emre.725@example.com,consumer,DE,Berlin,2024-12-27,1900-01-01,9999-12-31,Y
+794,C00726,Anna Dubois,anna.726@example.com,consumer,BE,Ghent,2022-08-23,1900-01-01,9999-12-31,Y
+795,C00727,Quinn Larsen,quinn.727@example.com,consumer,BE,Brussels,2023-08-11,1900-01-01,9999-12-31,Y
+796,C00728,Vera Larsen,vera.728@example.com,consumer,BE,Ghent,2025-02-09,1900-01-01,2025-03-17,N
+797,C00728,Vera Larsen,vera.728@example.com,smb,BE,Ghent,2025-02-09,2025-03-17,9999-12-31,Y
+798,C00729,Yara Peeters,yara.729@example.com,consumer,BE,Brussels,2022-08-14,1900-01-01,9999-12-31,Y
+799,C00730,Diana Visser,diana.730@example.com,smb,BE,Brussels,2024-10-31,1900-01-01,2025-12-20,N
+800,C00730,Diana Visser,diana.730@example.com,enterprise,BE,Brussels,2024-10-31,2025-12-20,9999-12-31,Y
+801,C00731,Chen Jansen,chen.731@example.com,smb,BE,Brussels,2022-08-23,1900-01-01,9999-12-31,Y
+802,C00732,Wout Visser,wout.732@example.com,consumer,FR,Paris,2023-01-30,1900-01-01,9999-12-31,Y
+803,C00733,Emre Smit,emre.733@example.com,consumer,DE,,2025-01-15,1900-01-01,9999-12-31,Y
+804,C00734,Yara Bakker,yara.734@example.com,smb,BE,Ghent,2024-10-27,1900-01-01,9999-12-31,Y
+805,C00735,Emre de Vries,emre.735@example.com,consumer,BE,Ghent,2024-01-04,1900-01-01,9999-12-31,Y
+806,C00736,Nadia de Vries,nadia.736@example.com,consumer,NL,Amsterdam,2023-04-30,1900-01-01,9999-12-31,Y
+807,C00737,Guido Okafor,guido.737@example.com,enterprise,NL,Amsterdam,2024-07-20,1900-01-01,9999-12-31,Y
+808,C00738,Omar Müller,omar.738@example.com,smb,NL,Utrecht,2026-03-27,1900-01-01,9999-12-31,Y
+809,C00739,Umut García,umut.739@example.com,consumer,FR,Lyon,2025-04-04,1900-01-01,9999-12-31,Y
+810,C00740,Karel Jansen,karel.740@example.com,smb,DE,Hamburg,2022-10-30,1900-01-01,9999-12-31,Y
+811,C00741,Ivo de Vries,ivo.741@example.com,consumer,FR,Paris,2024-06-01,1900-01-01,9999-12-31,Y
+812,C00742,Fatima Dubois,fatima.742@example.com,consumer,BE,Brussels,2023-08-13,1900-01-01,9999-12-31,Y
+813,C00743,Hana Okafor,hana.743@example.com,consumer,FR,Lyon,2026-01-04,1900-01-01,9999-12-31,Y
+814,C00744,Karel Smit,karel.744@example.com,consumer,NL,Rotterdam,2026-02-24,1900-01-01,9999-12-31,Y
+815,C00745,Vera Okafor,vera.745@example.com,consumer,FR,Paris,2023-06-04,1900-01-01,9999-12-31,Y
+816,C00746,Anna Novak,anna.746@example.com,smb,DE,Berlin,2024-03-13,1900-01-01,9999-12-31,Y
+817,C00747,Bram Okafor,bram.747@example.com,consumer,FR,,2024-10-21,1900-01-01,9999-12-31,Y
+818,C00748,Anna Bakker,anna.748@example.com,enterprise,FR,Lyon,2022-09-10,1900-01-01,9999-12-31,Y
+819,C00749,Anna Bakker,anna.749@example.com,smb,DE,Berlin,2023-01-26,1900-01-01,9999-12-31,Y
+820,C00750,Quinn Tran,quinn.750@example.com,enterprise,FR,Paris,2025-03-14,1900-01-01,9999-12-31,Y
+821,C00751,Yara Dubois,yara.751@example.com,consumer,DE,Berlin,2026-05-06,1900-01-01,9999-12-31,Y
+822,C00752,Emre Jansen,emre.752@example.com,consumer,VN,Ho Chi Minh City,2025-09-05,1900-01-01,9999-12-31,Y
+823,C00753,Tessa Jansen,tessa.753@example.com,smb,DE,Hamburg,2023-08-03,1900-01-01,9999-12-31,Y
+824,C00754,Wout Müller,wout.754@example.com,enterprise,BE,Ghent,2026-04-26,1900-01-01,9999-12-31,Y
+825,C00755,Linh Jansen,linh.755@example.com,consumer,BE,Brussels,2024-02-28,1900-01-01,9999-12-31,Y
+826,C00756,Hana Bakker,hana.756@example.com,smb,VN,Ho Chi Minh City,2023-03-06,1900-01-01,9999-12-31,Y
+827,C00757,Hana Nguyen,hana.757@example.com,consumer,NL,Amsterdam,2023-06-02,1900-01-01,9999-12-31,Y
+828,C00758,Fatima Visser,fatima.758@example.com,consumer,DE,Hamburg,2023-02-03,1900-01-01,9999-12-31,Y
+829,C00759,Linh Silva,linh.759@example.com,consumer,NL,Utrecht,2024-10-18,1900-01-01,9999-12-31,Y
+830,C00760,Guido Novak,guido.760@example.com,smb,NL,,2024-03-04,1900-01-01,9999-12-31,Y
+831,C00761,Bram Bakker,bram.761@example.com,consumer,DE,Berlin,2025-08-23,1900-01-01,9999-12-31,Y
+832,C00762,Mateo Jansen,mateo.762@example.com,consumer,BE,Brussels,2025-07-27,1900-01-01,9999-12-31,Y
+833,C00763,Bram Larsen,bram.763@example.com,consumer,BE,Brussels,2023-07-01,1900-01-01,9999-12-31,Y
+834,C00764,Nadia Smit,nadia.764@example.com,smb,BE,Ghent,2025-06-28,1900-01-01,9999-12-31,Y
+835,C00765,Julia Peeters,julia.765@example.com,consumer,VN,Ho Chi Minh City,2025-01-20,1900-01-01,2026-04-14,N
+836,C00765,Julia Peeters,julia.765@example.com,enterprise,VN,Ho Chi Minh City,2025-01-20,2026-04-14,9999-12-31,Y
+837,C00766,Mateo Okafor,mateo.766@example.com,consumer,FR,Paris,2024-03-10,1900-01-01,9999-12-31,Y
+838,C00767,Bram Nguyen,bram.767@example.com,consumer,DE,Berlin,2026-01-03,1900-01-01,9999-12-31,Y
+839,C00768,Bram Okafor,bram.768@example.com,smb,FR,Paris,2025-09-13,1900-01-01,2025-10-13,N
+840,C00768,Bram Okafor,bram.768@example.com,enterprise,FR,Paris,2025-09-13,2025-10-13,9999-12-31,Y
+841,C00769,Umut Okafor,umut.769@example.com,smb,VN,Ha Noi,2024-01-10,1900-01-01,9999-12-31,Y
+842,C00770,Chen Müller,chen.770@example.com,consumer,VN,Ha Noi,2025-03-17,1900-01-01,9999-12-31,Y
+843,C00771,Rosa García,rosa.771@example.com,consumer,DE,Hamburg,2025-04-25,1900-01-01,9999-12-31,Y
+844,C00772,Rosa Tran,rosa.772@example.com,smb,FR,Lyon,2023-09-10,1900-01-01,9999-12-31,Y
+845,C00773,Bram Smit,bram.773@example.com,consumer,FR,Lyon,2023-11-04,1900-01-01,9999-12-31,Y
+846,C00774,Linh Visser,linh.774@example.com,consumer,BE,Brussels,2026-01-05,1900-01-01,9999-12-31,Y
+847,C00775,Linh Müller,linh.775@example.com,consumer,VN,Ho Chi Minh City,2025-12-24,1900-01-01,9999-12-31,Y
+848,C00776,Karel Smit,karel.776@example.com,consumer,VN,Ho Chi Minh City,2022-08-26,1900-01-01,9999-12-31,Y
+849,C00777,Yara de Vries,yara.777@example.com,consumer,DE,Hamburg,2026-01-02,1900-01-01,9999-12-31,Y
+850,C00778,Ivo Nguyen,ivo.778@example.com,consumer,DE,Hamburg,2024-10-04,1900-01-01,9999-12-31,Y
+851,C00779,Fatima Silva,fatima.779@example.com,consumer,FR,Lyon,2022-12-05,1900-01-01,9999-12-31,Y
+852,C00780,Rosa Haddad,rosa.780@example.com,smb,DE,Berlin,2023-02-01,1900-01-01,9999-12-31,Y
+853,C00781,Fatima Rossi,fatima.781@example.com,consumer,BE,,2023-09-12,1900-01-01,9999-12-31,Y
+854,C00782,Ivo Haddad,ivo.782@example.com,consumer,VN,Ho Chi Minh City,2023-12-17,1900-01-01,9999-12-31,Y
+855,C00783,Umut Jansen,umut.783@example.com,smb,DE,Berlin,2024-07-26,1900-01-01,9999-12-31,Y
+856,C00784,Sven Visser,sven.784@example.com,consumer,FR,Paris,2023-04-14,1900-01-01,2025-03-11,N
+857,C00784,Sven Visser,sven.784@example.com,enterprise,FR,Paris,2023-04-14,2025-03-11,9999-12-31,Y
+858,C00785,Wout Peeters,wout.785@example.com,consumer,VN,Ho Chi Minh City,2025-12-13,1900-01-01,9999-12-31,Y
+859,C00786,Nadia Jansen,nadia.786@example.com,consumer,FR,Paris,2024-10-30,1900-01-01,9999-12-31,Y
+860,C00787,Ivo Müller,ivo.787@example.com,consumer,DE,Hamburg,2023-06-02,1900-01-01,9999-12-31,Y
+861,C00788,Sven Kowalski,sven.788@example.com,consumer,DE,Berlin,2025-08-31,1900-01-01,9999-12-31,Y
+862,C00789,Linh Silva,linh.789@example.com,enterprise,NL,Amsterdam,2023-03-15,1900-01-01,9999-12-31,Y
+863,C00790,Hana Silva,hana.790@example.com,consumer,BE,Brussels,2024-03-30,1900-01-01,9999-12-31,Y
+864,C00791,Omar Okafor,omar.791@example.com,smb,VN,Ha Noi,2024-04-30,1900-01-01,9999-12-31,Y
+865,C00792,Anna Tran,anna.792@example.com,enterprise,NL,Amsterdam,2023-08-21,1900-01-01,9999-12-31,Y
+866,C00793,Wout Dubois,wout.793@example.com,consumer,FR,Lyon,2025-10-14,1900-01-01,9999-12-31,Y
+867,C00794,Vera García,,smb,VN,Ha Noi,2025-01-16,1900-01-01,9999-12-31,Y
+868,C00795,Chen Okafor,chen.795@example.com,consumer,FR,Lyon,2026-01-28,1900-01-01,9999-12-31,Y
+869,C00796,Anna Okafor,anna.796@example.com,consumer,DE,Hamburg,2025-10-10,1900-01-01,9999-12-31,Y
+870,C00797,Yara Kowalski,yara.797@example.com,consumer,VN,Ha Noi,2025-03-12,1900-01-01,9999-12-31,Y
+871,C00798,Chen Silva,chen.798@example.com,consumer,BE,Brussels,2024-10-22,1900-01-01,9999-12-31,Y
+872,C00799,Mateo Bakker,mateo.799@example.com,smb,FR,Paris,2024-09-06,1900-01-01,9999-12-31,Y
+873,C00800,Pia Müller,pia.800@example.com,consumer,FR,Lyon,2024-10-31,1900-01-01,2026-04-05,N
+874,C00800,Pia Müller,pia.800@example.com,enterprise,FR,Lyon,2024-10-31,2026-04-05,9999-12-31,Y
+875,C00801,Guido Jansen,guido.801@example.com,consumer,NL,Utrecht,2024-05-16,1900-01-01,9999-12-31,Y
+876,C00802,Bram Nguyen,bram.802@example.com,consumer,NL,,2026-05-12,1900-01-01,9999-12-31,Y
+877,C00803,Karel Okafor,karel.803@example.com,enterprise,NL,Rotterdam,2026-05-05,1900-01-01,9999-12-31,Y
+878,C00804,Emre Dubois,emre.804@example.com,consumer,BE,Brussels,2025-03-16,1900-01-01,9999-12-31,Y
+879,C00805,Omar Novak,omar.805@example.com,smb,BE,Brussels,2024-09-03,1900-01-01,9999-12-31,Y
+880,C00806,Emre Nguyen,emre.806@example.com,consumer,NL,Utrecht,2025-01-15,1900-01-01,9999-12-31,Y
+881,C00807,Diana García,diana.807@example.com,consumer,DE,Berlin,2024-10-11,1900-01-01,9999-12-31,Y
+882,C00808,Linh Dubois,linh.808@example.com,consumer,DE,Berlin,2024-06-25,1900-01-01,9999-12-31,Y
+883,C00809,Quinn Silva,quinn.809@example.com,consumer,BE,Ghent,2025-02-19,1900-01-01,9999-12-31,Y
+884,C00810,Chen Dubois,chen.810@example.com,enterprise,BE,Ghent,2022-07-31,1900-01-01,9999-12-31,Y
+885,C00811,Quinn de Vries,,smb,BE,Ghent,2026-05-15,1900-01-01,9999-12-31,Y
+886,C00812,Karel García,karel.812@example.com,smb,DE,,2024-04-28,1900-01-01,9999-12-31,Y
+887,C00813,Omar Visser,omar.813@example.com,consumer,VN,Ho Chi Minh City,2024-12-13,1900-01-01,9999-12-31,Y
+888,C00814,Pia Kowalski,pia.814@example.com,consumer,BE,Ghent,2026-05-13,1900-01-01,9999-12-31,Y
+889,C00815,Quinn Silva,quinn.815@example.com,consumer,NL,Amsterdam,2025-02-19,1900-01-01,9999-12-31,Y
+890,C00816,Nadia García,nadia.816@example.com,smb,DE,Hamburg,2024-08-05,1900-01-01,9999-12-31,Y
+891,C00817,Julia Visser,julia.817@example.com,consumer,NL,,2024-03-10,1900-01-01,9999-12-31,Y
+892,C00818,Guido Müller,guido.818@example.com,consumer,DE,Berlin,2022-07-18,1900-01-01,2025-04-17,N
+893,C00818,Guido Müller,guido.818@example.com,enterprise,DE,Berlin,2022-07-18,2025-04-17,9999-12-31,Y
+894,C00819,Karel Visser,karel.819@example.com,consumer,NL,Amsterdam,2025-07-29,1900-01-01,9999-12-31,Y
+895,C00820,Pia Jansen,pia.820@example.com,smb,FR,Lyon,2024-08-31,1900-01-01,9999-12-31,Y
+896,C00821,Mateo Smit,mateo.821@example.com,consumer,DE,Berlin,2026-02-02,1900-01-01,9999-12-31,Y
+897,C00822,Chen Jansen,chen.822@example.com,consumer,DE,Berlin,2024-03-28,1900-01-01,9999-12-31,Y
+898,C00823,Diana Jansen,diana.823@example.com,smb,BE,Brussels,2022-10-18,1900-01-01,9999-12-31,Y
+899,C00824,Bram Müller,bram.824@example.com,consumer,FR,Lyon,2024-07-30,1900-01-01,9999-12-31,Y
+900,C00825,Mateo Peeters,mateo.825@example.com,smb,BE,Brussels,2025-10-26,1900-01-01,9999-12-31,Y
+901,C00826,Chen Okafor,,consumer,NL,Rotterdam,2025-08-11,1900-01-01,9999-12-31,Y
+902,C00827,Fatima Müller,fatima.827@example.com,smb,NL,Amsterdam,2024-01-03,1900-01-01,2025-05-06,N
+903,C00827,Fatima Müller,fatima.827@example.com,consumer,NL,Amsterdam,2024-01-03,2025-05-06,9999-12-31,Y
+904,C00828,Quinn Nguyen,quinn.828@example.com,smb,FR,Lyon,2024-11-15,1900-01-01,9999-12-31,Y
+905,C00829,Vera Dubois,vera.829@example.com,consumer,BE,Ghent,2025-10-16,1900-01-01,9999-12-31,Y
+906,C00830,Sven Bakker,sven.830@example.com,consumer,BE,Ghent,2025-05-04,1900-01-01,9999-12-31,Y
+907,C00831,Quinn Novak,quinn.831@example.com,consumer,DE,Hamburg,2024-02-19,1900-01-01,9999-12-31,Y
+908,C00832,Chen Müller,chen.832@example.com,smb,DE,Hamburg,2022-08-21,1900-01-01,9999-12-31,Y
+909,C00833,Emre García,emre.833@example.com,smb,FR,Paris,2023-07-19,1900-01-01,9999-12-31,Y
+910,C00834,Umut Peeters,umut.834@example.com,smb,BE,Brussels,2024-12-13,1900-01-01,9999-12-31,Y
+911,C00835,Ivo Smit,ivo.835@example.com,consumer,BE,Ghent,2024-02-13,1900-01-01,9999-12-31,Y
+912,C00836,Ivo Dubois,ivo.836@example.com,consumer,BE,Ghent,2023-03-31,1900-01-01,9999-12-31,Y
+913,C00837,Fatima Silva,fatima.837@example.com,enterprise,VN,Ho Chi Minh City,2025-09-20,1900-01-01,9999-12-31,Y
+914,C00838,Umut Haddad,umut.838@example.com,consumer,DE,Berlin,2022-09-03,1900-01-01,9999-12-31,Y
+915,C00839,Umut Smit,umut.839@example.com,consumer,FR,Paris,2022-10-17,1900-01-01,9999-12-31,Y
+916,C00840,Mateo Tran,mateo.840@example.com,consumer,BE,Brussels,2025-04-14,1900-01-01,9999-12-31,Y
+917,C00841,Rosa Smit,rosa.841@example.com,enterprise,DE,,2025-12-15,1900-01-01,9999-12-31,Y
+918,C00842,Guido de Vries,guido.842@example.com,smb,BE,Ghent,2025-09-29,1900-01-01,9999-12-31,Y
+919,C00843,Pia Haddad,pia.843@example.com,consumer,DE,Hamburg,2025-06-01,1900-01-01,2025-08-02,N
+920,C00843,Pia Haddad,pia.843@example.com,enterprise,DE,Hamburg,2025-06-01,2025-08-02,9999-12-31,Y
+921,C00844,Omar Okafor,omar.844@example.com,enterprise,DE,Hamburg,2023-07-20,1900-01-01,9999-12-31,Y
+922,C00845,Sven Okafor,sven.845@example.com,consumer,BE,Brussels,2025-04-18,1900-01-01,9999-12-31,Y
+923,C00846,Rosa Dubois,rosa.846@example.com,consumer,NL,Utrecht,2024-02-23,1900-01-01,9999-12-31,Y
+924,C00847,Yara Jansen,yara.847@example.com,consumer,DE,Hamburg,2025-08-31,1900-01-01,9999-12-31,Y
+925,C00848,Hana Peeters,hana.848@example.com,consumer,FR,Lyon,2026-03-01,1900-01-01,9999-12-31,Y
+926,C00849,Pia de Vries,pia.849@example.com,consumer,DE,Berlin,2024-03-17,1900-01-01,9999-12-31,Y
+927,C00850,Quinn Visser,quinn.850@example.com,consumer,DE,Berlin,2023-11-10,1900-01-01,9999-12-31,Y
+928,C00851,Emre Larsen,emre.851@example.com,consumer,NL,Amsterdam,2023-05-01,1900-01-01,9999-12-31,Y
+929,C00852,Fatima Okafor,fatima.852@example.com,consumer,VN,Ha Noi,2025-12-28,1900-01-01,9999-12-31,Y
+930,C00853,Emre Larsen,emre.853@example.com,consumer,NL,Utrecht,2025-08-06,1900-01-01,9999-12-31,Y
+931,C00854,Umut Jansen,umut.854@example.com,consumer,NL,Rotterdam,2026-03-27,1900-01-01,9999-12-31,Y
+932,C00855,Anna García,anna.855@example.com,consumer,VN,Ha Noi,2024-12-13,1900-01-01,9999-12-31,Y
+933,C00856,Sven Okafor,sven.856@example.com,consumer,NL,,2024-07-13,1900-01-01,9999-12-31,Y
+934,C00857,Quinn Haddad,quinn.857@example.com,consumer,VN,Ho Chi Minh City,2023-02-24,1900-01-01,9999-12-31,Y
+935,C00858,Umut de Vries,umut.858@example.com,consumer,BE,Ghent,2023-12-01,1900-01-01,9999-12-31,Y
+936,C00859,Hana de Vries,hana.859@example.com,consumer,NL,Utrecht,2026-03-07,1900-01-01,9999-12-31,Y
+937,C00860,Nadia Dubois,nadia.860@example.com,consumer,DE,Hamburg,2022-09-05,1900-01-01,9999-12-31,Y
+938,C00861,Ivo Rossi,ivo.861@example.com,consumer,VN,Ha Noi,2026-03-19,1900-01-01,9999-12-31,Y
+939,C00862,Tessa de Vries,tessa.862@example.com,consumer,DE,Berlin,2022-12-28,1900-01-01,9999-12-31,Y
+940,C00863,Tessa de Vries,tessa.863@example.com,consumer,VN,,2024-03-17,1900-01-01,2025-10-25,N
+941,C00863,Tessa de Vries,tessa.863@example.com,smb,VN,,2024-03-17,2025-10-25,9999-12-31,Y
+942,C00864,Linh de Vries,linh.864@example.com,consumer,NL,Utrecht,2023-12-16,1900-01-01,9999-12-31,Y
+943,C00865,Yara Rossi,yara.865@example.com,consumer,FR,Lyon,2024-06-10,1900-01-01,9999-12-31,Y
+944,C00866,Vera Visser,vera.866@example.com,consumer,DE,Berlin,2023-03-21,1900-01-01,9999-12-31,Y
+945,C00867,Rosa Dubois,rosa.867@example.com,consumer,BE,Ghent,2025-04-05,1900-01-01,9999-12-31,Y
+946,C00868,Anna Bakker,anna.868@example.com,consumer,FR,Lyon,2023-10-25,1900-01-01,9999-12-31,Y
+947,C00869,Wout Visser,wout.869@example.com,consumer,FR,Paris,2025-10-06,1900-01-01,9999-12-31,Y
+948,C00870,Yara de Vries,yara.870@example.com,smb,FR,Paris,2023-11-25,1900-01-01,9999-12-31,Y
+949,C00871,Bram Nguyen,bram.871@example.com,smb,BE,Ghent,2025-08-23,1900-01-01,9999-12-31,Y
+950,C00872,Rosa Müller,rosa.872@example.com,consumer,DE,Hamburg,2024-02-07,1900-01-01,9999-12-31,Y
+951,C00873,Karel Silva,karel.873@example.com,consumer,NL,Rotterdam,2024-06-25,1900-01-01,9999-12-31,Y
+952,C00874,Linh Kowalski,linh.874@example.com,consumer,BE,Brussels,2025-06-18,1900-01-01,9999-12-31,Y
+953,C00875,Linh Jansen,linh.875@example.com,consumer,BE,Brussels,2024-05-06,1900-01-01,9999-12-31,Y
+954,C00876,Tessa Okafor,tessa.876@example.com,consumer,VN,Ho Chi Minh City,2026-03-28,1900-01-01,9999-12-31,Y
+955,C00877,Sven Rossi,sven.877@example.com,smb,NL,Rotterdam,2023-07-10,1900-01-01,9999-12-31,Y
+956,C00878,Bram Haddad,bram.878@example.com,consumer,FR,Lyon,2023-09-30,1900-01-01,9999-12-31,Y
+957,C00879,Fatima Okafor,fatima.879@example.com,consumer,DE,Hamburg,2024-06-05,1900-01-01,9999-12-31,Y
+958,C00880,Umut Haddad,umut.880@example.com,smb,FR,Lyon,2026-02-27,1900-01-01,9999-12-31,Y
+959,C00881,Quinn Silva,,smb,DE,Hamburg,2023-01-28,1900-01-01,9999-12-31,Y
+960,C00882,Quinn Kowalski,quinn.882@example.com,consumer,FR,Paris,2024-11-23,1900-01-01,9999-12-31,Y
+961,C00883,Umut Smit,umut.883@example.com,consumer,NL,Utrecht,2024-12-31,1900-01-01,9999-12-31,Y
+962,C00884,Chen Bakker,chen.884@example.com,consumer,DE,Berlin,2023-01-02,1900-01-01,9999-12-31,Y
+963,C00885,Diana Müller,diana.885@example.com,smb,VN,Ho Chi Minh City,2024-09-02,1900-01-01,9999-12-31,Y
+964,C00886,Diana Okafor,diana.886@example.com,smb,BE,Ghent,2022-07-19,1900-01-01,9999-12-31,Y
+965,C00887,Bram Okafor,bram.887@example.com,consumer,NL,Utrecht,2023-10-29,1900-01-01,9999-12-31,Y
+966,C00888,Sven Tran,sven.888@example.com,consumer,BE,Ghent,2023-07-25,1900-01-01,9999-12-31,Y
+967,C00889,Fatima Silva,fatima.889@example.com,consumer,BE,Ghent,2022-10-29,1900-01-01,9999-12-31,Y
+968,C00890,Yara Dubois,yara.890@example.com,consumer,BE,,2026-01-23,1900-01-01,9999-12-31,Y
+969,C00891,Mateo Jansen,mateo.891@example.com,enterprise,FR,Lyon,2023-02-22,1900-01-01,9999-12-31,Y
+970,C00892,Tessa Bakker,tessa.892@example.com,smb,VN,Ha Noi,2025-04-23,1900-01-01,9999-12-31,Y
+971,C00893,Yara Peeters,yara.893@example.com,consumer,VN,,2025-03-21,1900-01-01,9999-12-31,Y
+972,C00894,Rosa Peeters,rosa.894@example.com,consumer,DE,Berlin,2024-07-31,1900-01-01,9999-12-31,Y
+973,C00895,Fatima Müller,fatima.895@example.com,consumer,FR,Paris,2023-10-24,1900-01-01,9999-12-31,Y
+974,C00896,Omar Okafor,omar.896@example.com,consumer,DE,Berlin,2023-06-13,1900-01-01,9999-12-31,Y
+975,C00897,Mateo Rossi,mateo.897@example.com,consumer,BE,Ghent,2022-12-18,1900-01-01,9999-12-31,Y
+976,C00898,Omar García,omar.898@example.com,consumer,FR,Paris,2024-08-08,1900-01-01,9999-12-31,Y
+977,C00899,Fatima Novak,fatima.899@example.com,consumer,FR,Paris,2025-12-28,1900-01-01,9999-12-31,Y
+978,C00900,Rosa Visser,rosa.900@example.com,smb,VN,Ha Noi,2024-09-02,1900-01-01,9999-12-31,Y
+979,C00901,Ivo Bakker,ivo.901@example.com,smb,BE,Brussels,2023-03-04,1900-01-01,9999-12-31,Y
+980,C00902,Mateo Müller,mateo.902@example.com,consumer,VN,Ho Chi Minh City,2024-08-29,1900-01-01,9999-12-31,Y
+981,C00903,Omar Dubois,omar.903@example.com,consumer,BE,Ghent,2024-07-20,1900-01-01,9999-12-31,Y
+982,C00904,Hana Okafor,hana.904@example.com,consumer,DE,Berlin,2024-12-29,1900-01-01,9999-12-31,Y
+983,C00905,Vera Dubois,vera.905@example.com,consumer,BE,Brussels,2022-12-05,1900-01-01,9999-12-31,Y
+984,C00906,Anna Visser,anna.906@example.com,consumer,DE,Hamburg,2025-09-23,1900-01-01,9999-12-31,Y
+985,C00907,Umut Silva,umut.907@example.com,consumer,VN,Ha Noi,2026-03-13,1900-01-01,9999-12-31,Y
+986,C00908,Diana de Vries,diana.908@example.com,consumer,BE,Brussels,2023-07-13,1900-01-01,9999-12-31,Y
+987,C00909,Diana Dubois,diana.909@example.com,consumer,NL,Amsterdam,2024-06-25,1900-01-01,9999-12-31,Y
+988,C00910,Tessa Nguyen,tessa.910@example.com,consumer,BE,Brussels,2026-02-23,1900-01-01,9999-12-31,Y
+989,C00911,Rosa Okafor,rosa.911@example.com,smb,VN,Ha Noi,2024-01-15,1900-01-01,9999-12-31,Y
+990,C00912,Umut Tran,umut.912@example.com,consumer,NL,Amsterdam,2023-10-21,1900-01-01,9999-12-31,Y
+991,C00913,Pia de Vries,pia.913@example.com,consumer,NL,Amsterdam,2022-09-11,1900-01-01,9999-12-31,Y
+992,C00914,Tessa Rossi,tessa.914@example.com,consumer,FR,Paris,2023-09-19,1900-01-01,2025-11-29,N
+993,C00914,Tessa Rossi,tessa.914@example.com,enterprise,FR,Paris,2023-09-19,2025-11-29,9999-12-31,Y
+994,C00915,Ivo Novak,ivo.915@example.com,consumer,DE,Berlin,2025-07-04,1900-01-01,9999-12-31,Y
+995,C00916,Hana Müller,hana.916@example.com,consumer,NL,Utrecht,2023-11-05,1900-01-01,9999-12-31,Y
+996,C00917,Karel de Vries,karel.917@example.com,consumer,FR,Paris,2026-05-11,1900-01-01,9999-12-31,Y
+997,C00918,Fatima Larsen,fatima.918@example.com,enterprise,NL,Utrecht,2023-03-31,1900-01-01,2026-02-07,N
+998,C00918,Fatima Larsen,fatima.918@example.com,consumer,NL,Utrecht,2023-03-31,2026-02-07,9999-12-31,Y
+999,C00919,Nadia Haddad,nadia.919@example.com,consumer,BE,Brussels,2024-04-14,1900-01-01,9999-12-31,Y
+1000,C00920,Yara Kowalski,yara.920@example.com,consumer,DE,Berlin,2025-07-02,1900-01-01,9999-12-31,Y
+1001,C00921,Anna Peeters,anna.921@example.com,consumer,NL,Utrecht,2024-05-27,1900-01-01,9999-12-31,Y
+1002,C00922,Omar Larsen,omar.922@example.com,smb,BE,Brussels,2026-03-06,1900-01-01,9999-12-31,Y
+1003,C00923,Nadia Silva,nadia.923@example.com,smb,DE,Hamburg,2025-04-03,1900-01-01,9999-12-31,Y
+1004,C00924,Yara Kowalski,yara.924@example.com,consumer,FR,Lyon,2026-04-01,1900-01-01,9999-12-31,Y
+1005,C00925,Pia García,pia.925@example.com,smb,NL,Utrecht,2025-09-10,1900-01-01,9999-12-31,Y
+1006,C00926,Linh Müller,linh.926@example.com,smb,NL,Amsterdam,2024-03-18,1900-01-01,2025-04-22,N
+1007,C00926,Linh Müller,linh.926@example.com,consumer,NL,Amsterdam,2024-03-18,2025-04-22,9999-12-31,Y
+1008,C00927,Hana Larsen,hana.927@example.com,smb,FR,Paris,2024-08-08,1900-01-01,9999-12-31,Y
+1009,C00928,Omar Haddad,omar.928@example.com,consumer,DE,Hamburg,2025-12-23,1900-01-01,9999-12-31,Y
+1010,C00929,Wout Tran,wout.929@example.com,consumer,NL,Amsterdam,2023-03-03,1900-01-01,2025-11-14,N
+1011,C00929,Wout Tran,wout.929@example.com,smb,NL,Amsterdam,2023-03-03,2025-11-14,9999-12-31,Y
+1012,C00930,Quinn Okafor,quinn.930@example.com,consumer,NL,Utrecht,2025-01-28,1900-01-01,9999-12-31,Y
+1013,C00931,Tessa Visser,tessa.931@example.com,consumer,VN,Ha Noi,2025-04-28,1900-01-01,9999-12-31,Y
+1014,C00932,Pia de Vries,,smb,BE,Brussels,2024-02-18,1900-01-01,9999-12-31,Y
+1015,C00933,Emre Haddad,emre.933@example.com,consumer,FR,Lyon,2024-04-15,1900-01-01,9999-12-31,Y
+1016,C00934,Umut Novak,umut.934@example.com,consumer,BE,Ghent,2025-04-15,1900-01-01,9999-12-31,Y
+1017,C00935,Pia Nguyen,pia.935@example.com,enterprise,VN,Ha Noi,2025-01-02,1900-01-01,9999-12-31,Y
+1018,C00936,Wout Okafor,wout.936@example.com,consumer,FR,Lyon,2025-05-14,1900-01-01,9999-12-31,Y
+1019,C00937,Diana Okafor,diana.937@example.com,smb,NL,Rotterdam,2023-12-16,1900-01-01,9999-12-31,Y
+1020,C00938,Quinn Peeters,quinn.938@example.com,consumer,FR,Paris,2023-06-12,1900-01-01,9999-12-31,Y
+1021,C00939,Hana Müller,hana.939@example.com,smb,VN,Ha Noi,2025-06-13,1900-01-01,9999-12-31,Y
+1022,C00940,Quinn Smit,quinn.940@example.com,consumer,DE,Hamburg,2023-04-09,1900-01-01,9999-12-31,Y
+1023,C00941,Vera Haddad,vera.941@example.com,consumer,FR,Lyon,2022-07-21,1900-01-01,9999-12-31,Y
+1024,C00942,Hana Nguyen,hana.942@example.com,consumer,FR,Paris,2024-02-11,1900-01-01,9999-12-31,Y
+1025,C00943,Tessa Peeters,tessa.943@example.com,consumer,BE,Ghent,2025-06-12,1900-01-01,9999-12-31,Y
+1026,C00944,Linh Jansen,linh.944@example.com,smb,BE,Brussels,2025-01-07,1900-01-01,9999-12-31,Y
+1027,C00945,Hana Nguyen,hana.945@example.com,consumer,DE,Hamburg,2025-12-22,1900-01-01,9999-12-31,Y
+1028,C00946,Hana Okafor,hana.946@example.com,consumer,FR,Lyon,2024-11-26,1900-01-01,9999-12-31,Y
+1029,C00947,Guido Visser,guido.947@example.com,smb,FR,Lyon,2025-11-26,1900-01-01,9999-12-31,Y
+1030,C00948,Umut de Vries,umut.948@example.com,smb,BE,Brussels,2022-08-24,1900-01-01,2025-04-14,N
+1031,C00948,Umut de Vries,umut.948@example.com,enterprise,BE,Brussels,2022-08-24,2025-04-14,9999-12-31,Y
+1032,C00949,Sven Jansen,sven.949@example.com,consumer,DE,,2022-10-26,1900-01-01,9999-12-31,Y
+1033,C00950,Omar Okafor,omar.950@example.com,consumer,BE,Ghent,2026-02-15,1900-01-01,9999-12-31,Y
+1034,C00951,Rosa Müller,rosa.951@example.com,consumer,VN,Ha Noi,2025-09-04,1900-01-01,9999-12-31,Y
+1035,C00952,Yara Tran,yara.952@example.com,smb,NL,Utrecht,2023-01-31,1900-01-01,9999-12-31,Y
+1036,C00953,Karel Silva,karel.953@example.com,consumer,BE,Ghent,2026-04-22,1900-01-01,9999-12-31,Y
+1037,C00954,Diana de Vries,diana.954@example.com,consumer,VN,Ho Chi Minh City,2025-09-16,1900-01-01,9999-12-31,Y
+1038,C00955,Omar Silva,omar.955@example.com,consumer,NL,Amsterdam,2022-08-10,1900-01-01,9999-12-31,Y
+1039,C00956,Guido Smit,guido.956@example.com,consumer,FR,Lyon,2023-10-25,1900-01-01,9999-12-31,Y
+1040,C00957,Sven Smit,sven.957@example.com,consumer,BE,Ghent,2025-10-20,1900-01-01,9999-12-31,Y
+1041,C00958,Fatima Tran,fatima.958@example.com,consumer,BE,Ghent,2025-08-12,1900-01-01,9999-12-31,Y
+1042,C00959,Ivo Müller,ivo.959@example.com,smb,NL,,2024-03-18,1900-01-01,9999-12-31,Y
+1043,C00960,Bram Tran,bram.960@example.com,consumer,VN,Ha Noi,2024-02-29,1900-01-01,9999-12-31,Y
+1044,C00961,Pia Peeters,pia.961@example.com,consumer,VN,Ha Noi,2023-06-02,1900-01-01,9999-12-31,Y
+1045,C00962,Diana Okafor,diana.962@example.com,consumer,BE,Brussels,2024-01-25,1900-01-01,9999-12-31,Y
+1046,C00963,Hana Visser,hana.963@example.com,smb,BE,Brussels,2025-06-23,1900-01-01,9999-12-31,Y
+1047,C00964,Diana Peeters,diana.964@example.com,smb,NL,Rotterdam,2023-08-17,1900-01-01,9999-12-31,Y
+1048,C00965,Yara Müller,yara.965@example.com,consumer,BE,Ghent,2023-01-18,1900-01-01,2025-05-06,N
+1049,C00965,Yara Müller,yara.965@example.com,enterprise,BE,Ghent,2023-01-18,2025-05-06,9999-12-31,Y
+1050,C00966,Rosa Peeters,rosa.966@example.com,consumer,VN,Ho Chi Minh City,2025-08-02,1900-01-01,9999-12-31,Y
+1051,C00967,Diana Jansen,diana.967@example.com,consumer,VN,Ha Noi,2025-07-14,1900-01-01,9999-12-31,Y
+1052,C00968,Julia Müller,julia.968@example.com,consumer,BE,Ghent,2025-06-26,1900-01-01,9999-12-31,Y
+1053,C00969,Pia Rossi,pia.969@example.com,consumer,FR,Lyon,2025-06-02,1900-01-01,9999-12-31,Y
+1054,C00970,Bram Novak,bram.970@example.com,smb,NL,Amsterdam,2024-06-25,1900-01-01,9999-12-31,Y
+1055,C00971,Pia Tran,pia.971@example.com,consumer,VN,Ho Chi Minh City,2024-12-22,1900-01-01,9999-12-31,Y
+1056,C00972,Mateo García,mateo.972@example.com,consumer,NL,Rotterdam,2022-09-13,1900-01-01,9999-12-31,Y
+1057,C00973,Mateo Nguyen,mateo.973@example.com,consumer,BE,Brussels,2023-05-13,1900-01-01,9999-12-31,Y
+1058,C00974,Linh Müller,linh.974@example.com,consumer,DE,Berlin,2024-05-02,1900-01-01,2026-01-12,N
+1059,C00974,Linh Müller,linh.974@example.com,enterprise,DE,Berlin,2024-05-02,2026-01-12,9999-12-31,Y
+1060,C00975,Tessa Kowalski,tessa.975@example.com,consumer,DE,Hamburg,2024-07-29,1900-01-01,9999-12-31,Y
+1061,C00976,Umut Tran,umut.976@example.com,consumer,BE,Ghent,2022-09-24,1900-01-01,2025-03-15,N
+1062,C00976,Umut Tran,umut.976@example.com,smb,BE,Ghent,2022-09-24,2025-03-15,9999-12-31,Y
+1063,C00977,Julia Visser,julia.977@example.com,enterprise,BE,Brussels,2024-06-24,1900-01-01,9999-12-31,Y
+1064,C00978,Nadia de Vries,nadia.978@example.com,consumer,BE,Ghent,2024-07-20,1900-01-01,9999-12-31,Y
+1065,C00979,Chen Silva,,consumer,VN,Ha Noi,2026-02-23,1900-01-01,9999-12-31,Y
+1066,C00980,Wout García,wout.980@example.com,smb,FR,,2024-10-27,1900-01-01,9999-12-31,Y
+1067,C00981,Omar Kowalski,omar.981@example.com,consumer,FR,Paris,2025-05-24,1900-01-01,9999-12-31,Y
+1068,C00982,Diana Larsen,diana.982@example.com,consumer,FR,Paris,2025-06-11,1900-01-01,9999-12-31,Y
+1069,C00983,Tessa Haddad,tessa.983@example.com,consumer,DE,Hamburg,2022-08-28,1900-01-01,9999-12-31,Y
+1070,C00984,Sven Tran,sven.984@example.com,consumer,NL,Amsterdam,2026-03-02,1900-01-01,9999-12-31,Y
+1071,C00985,Yara Rossi,yara.985@example.com,consumer,FR,Lyon,2025-12-11,1900-01-01,2026-03-01,N
+1072,C00985,Yara Rossi,yara.985@example.com,smb,FR,Lyon,2025-12-11,2026-03-01,9999-12-31,Y
+1073,C00986,Fatima Nguyen,fatima.986@example.com,consumer,BE,Brussels,2026-02-24,1900-01-01,9999-12-31,Y
+1074,C00987,Pia Haddad,pia.987@example.com,consumer,NL,Rotterdam,2023-12-08,1900-01-01,9999-12-31,Y
+1075,C00988,Wout García,wout.988@example.com,consumer,NL,Rotterdam,2024-03-06,1900-01-01,9999-12-31,Y
+1076,C00989,Nadia Silva,nadia.989@example.com,consumer,BE,,2024-08-20,1900-01-01,9999-12-31,Y
+1077,C00990,Guido Nguyen,guido.990@example.com,consumer,BE,Ghent,2025-02-10,1900-01-01,9999-12-31,Y
+1078,C00991,Yara Kowalski,yara.991@example.com,consumer,NL,Utrecht,2025-03-05,1900-01-01,9999-12-31,Y
+1079,C00992,Bram García,bram.992@example.com,consumer,DE,Berlin,2022-09-14,1900-01-01,9999-12-31,Y
+1080,C00993,Guido Kowalski,guido.993@example.com,consumer,DE,Hamburg,2022-12-21,1900-01-01,9999-12-31,Y
+1081,C00994,Linh Larsen,linh.994@example.com,smb,VN,Ha Noi,2022-11-30,1900-01-01,9999-12-31,Y
+1082,C00995,Wout Nguyen,wout.995@example.com,consumer,DE,Berlin,2025-05-28,1900-01-01,9999-12-31,Y
+1083,C00996,Yara Silva,yara.996@example.com,smb,BE,Brussels,2023-01-07,1900-01-01,9999-12-31,Y
+1084,C00997,Diana Jansen,diana.997@example.com,consumer,FR,Paris,2026-03-05,1900-01-01,9999-12-31,Y
+1085,C00998,Guido Müller,,smb,VN,Ho Chi Minh City,2024-01-28,1900-01-01,9999-12-31,Y
+1086,C00999,Emre de Vries,emre.999@example.com,consumer,FR,Paris,2025-07-28,1900-01-01,9999-12-31,Y
+1087,C01000,Fatima Tran,fatima.1000@example.com,enterprise,DE,Hamburg,2025-01-08,1900-01-01,9999-12-31,Y
+1088,C01001,Linh Müller,linh.1001@example.com,consumer,VN,Ha Noi,2025-01-16,1900-01-01,9999-12-31,Y
+1089,C01002,Hana de Vries,hana.1002@example.com,consumer,DE,Hamburg,2025-12-21,1900-01-01,9999-12-31,Y
+1090,C01003,Omar Smit,omar.1003@example.com,consumer,DE,Berlin,2023-01-24,1900-01-01,9999-12-31,Y
+1091,C01004,Wout de Vries,wout.1004@example.com,consumer,BE,Ghent,2023-10-17,1900-01-01,9999-12-31,Y
+1092,C01005,Hana Peeters,hana.1005@example.com,consumer,VN,Ha Noi,2026-03-31,1900-01-01,9999-12-31,Y
+1093,C01006,Nadia Jansen,nadia.1006@example.com,consumer,DE,Hamburg,2024-11-20,1900-01-01,9999-12-31,Y
+1094,C01007,Julia de Vries,julia.1007@example.com,consumer,NL,Amsterdam,2025-08-21,1900-01-01,9999-12-31,Y
+1095,C01008,Diana Novak,diana.1008@example.com,consumer,NL,Utrecht,2024-01-04,1900-01-01,9999-12-31,Y
+1096,C01009,Mateo García,mateo.1009@example.com,consumer,NL,Utrecht,2024-03-13,1900-01-01,9999-12-31,Y
+1097,C01010,Vera Nguyen,vera.1010@example.com,consumer,DE,Hamburg,2026-04-19,1900-01-01,9999-12-31,Y
+1098,C01011,Bram Jansen,bram.1011@example.com,consumer,VN,Ha Noi,2023-01-27,1900-01-01,9999-12-31,Y
+1099,C01012,Bram Müller,bram.1012@example.com,enterprise,NL,Rotterdam,2024-06-20,1900-01-01,9999-12-31,Y
+1100,C01013,Emre Tran,emre.1013@example.com,consumer,VN,Ho Chi Minh City,2025-05-12,1900-01-01,9999-12-31,Y
+1101,C01014,Umut Larsen,umut.1014@example.com,enterprise,DE,Hamburg,2022-09-12,1900-01-01,9999-12-31,Y
+1102,C01015,Diana Tran,diana.1015@example.com,consumer,DE,Hamburg,2026-03-12,1900-01-01,9999-12-31,Y
+1103,C01016,Guido Novak,guido.1016@example.com,consumer,DE,Hamburg,2024-10-23,1900-01-01,9999-12-31,Y
+1104,C01017,Bram Okafor,bram.1017@example.com,consumer,BE,Brussels,2025-06-26,1900-01-01,9999-12-31,Y
+1105,C01018,Wout Nguyen,wout.1018@example.com,consumer,DE,Hamburg,2024-11-19,1900-01-01,9999-12-31,Y
+1106,C01019,Omar Rossi,omar.1019@example.com,consumer,BE,Ghent,2025-04-12,1900-01-01,9999-12-31,Y
+1107,C01020,Hana Tran,hana.1020@example.com,smb,BE,Ghent,2026-04-26,1900-01-01,9999-12-31,Y
+1108,C01021,Tessa Nguyen,tessa.1021@example.com,enterprise,VN,Ha Noi,2023-09-27,1900-01-01,9999-12-31,Y
+1109,C01022,Emre Peeters,emre.1022@example.com,consumer,VN,Ho Chi Minh City,2023-07-29,1900-01-01,9999-12-31,Y
+1110,C01023,Wout Rossi,wout.1023@example.com,consumer,NL,Rotterdam,2026-01-27,1900-01-01,9999-12-31,Y
+1111,C01024,Nadia Visser,nadia.1024@example.com,consumer,DE,Hamburg,2026-02-01,1900-01-01,9999-12-31,Y
+1112,C01025,Yara Dubois,yara.1025@example.com,consumer,VN,Ha Noi,2022-10-09,1900-01-01,9999-12-31,Y
+1113,C01026,Chen Haddad,chen.1026@example.com,smb,VN,Ha Noi,2025-08-26,1900-01-01,9999-12-31,Y
+1114,C01027,Linh Kowalski,linh.1027@example.com,consumer,DE,Berlin,2025-01-10,1900-01-01,9999-12-31,Y
+1115,C01028,Guido Müller,guido.1028@example.com,consumer,NL,Utrecht,2024-12-19,1900-01-01,9999-12-31,Y
+1116,C01029,Bram Müller,bram.1029@example.com,consumer,BE,Brussels,2024-11-15,1900-01-01,9999-12-31,Y
+1117,C01030,Wout Müller,wout.1030@example.com,smb,BE,Brussels,2026-05-15,1900-01-01,9999-12-31,Y
+1118,C01031,Omar Nguyen,omar.1031@example.com,consumer,BE,Ghent,2025-12-16,1900-01-01,9999-12-31,Y
+1119,C01032,Vera Bakker,vera.1032@example.com,consumer,FR,Lyon,2024-11-13,1900-01-01,9999-12-31,Y
+1120,C01033,Pia Tran,pia.1033@example.com,smb,BE,Brussels,2024-11-30,1900-01-01,9999-12-31,Y
+1121,C01034,Emre Visser,emre.1034@example.com,consumer,FR,Paris,2024-07-02,1900-01-01,9999-12-31,Y
+1122,C01035,Chen Smit,chen.1035@example.com,consumer,BE,Brussels,2022-10-07,1900-01-01,9999-12-31,Y
+1123,C01036,Linh Okafor,linh.1036@example.com,consumer,NL,Utrecht,2025-07-19,1900-01-01,9999-12-31,Y
+1124,C01037,Pia Bakker,pia.1037@example.com,consumer,DE,Berlin,2025-07-30,1900-01-01,9999-12-31,Y
+1125,C01038,Quinn Haddad,quinn.1038@example.com,enterprise,DE,Hamburg,2024-09-22,1900-01-01,9999-12-31,Y
+1126,C01039,Diana Visser,diana.1039@example.com,consumer,NL,Rotterdam,2023-06-02,1900-01-01,9999-12-31,Y
+1127,C01040,Sven García,sven.1040@example.com,smb,NL,Rotterdam,2024-12-15,1900-01-01,9999-12-31,Y
+1128,C01041,Wout Silva,wout.1041@example.com,consumer,VN,Ha Noi,2026-02-16,1900-01-01,9999-12-31,Y
+1129,C01042,Quinn Nguyen,,consumer,BE,Brussels,2024-05-26,1900-01-01,9999-12-31,Y
+1130,C01043,Guido Tran,guido.1043@example.com,consumer,NL,Rotterdam,2026-02-14,1900-01-01,9999-12-31,Y
+1131,C01044,Vera Müller,vera.1044@example.com,consumer,FR,Paris,2024-01-17,1900-01-01,9999-12-31,Y
+1132,C01045,Julia Nguyen,julia.1045@example.com,consumer,DE,Hamburg,2023-11-10,1900-01-01,9999-12-31,Y
+1133,C01046,Omar Silva,omar.1046@example.com,consumer,FR,,2023-06-06,1900-01-01,9999-12-31,Y
+1134,C01047,Pia Rossi,pia.1047@example.com,enterprise,BE,Ghent,2022-10-22,1900-01-01,2025-07-15,N
+1135,C01047,Pia Rossi,pia.1047@example.com,consumer,BE,Ghent,2022-10-22,2025-07-15,9999-12-31,Y
+1136,C01048,Hana Bakker,hana.1048@example.com,consumer,DE,Hamburg,2025-12-20,1900-01-01,9999-12-31,Y
+1137,C01049,Tessa Müller,tessa.1049@example.com,smb,BE,Ghent,2026-01-25,1900-01-01,9999-12-31,Y
+1138,C01050,Ivo Müller,ivo.1050@example.com,consumer,DE,Berlin,2024-01-14,1900-01-01,9999-12-31,Y
+1139,C01051,Hana Okafor,hana.1051@example.com,smb,VN,Ho Chi Minh City,2024-11-28,1900-01-01,9999-12-31,Y
+1140,C01052,Guido Visser,guido.1052@example.com,enterprise,FR,Lyon,2026-02-02,1900-01-01,9999-12-31,Y
+1141,C01053,Omar Rossi,omar.1053@example.com,consumer,FR,Lyon,2024-04-21,1900-01-01,9999-12-31,Y
+1142,C01054,Vera Dubois,vera.1054@example.com,consumer,NL,Rotterdam,2025-07-19,1900-01-01,9999-12-31,Y
+1143,C01055,Hana Tran,hana.1055@example.com,consumer,NL,Rotterdam,2023-06-23,1900-01-01,9999-12-31,Y
+1144,C01056,Ivo Visser,ivo.1056@example.com,consumer,NL,Amsterdam,2025-03-24,1900-01-01,9999-12-31,Y
+1145,C01057,Omar Larsen,omar.1057@example.com,consumer,BE,Brussels,2024-03-20,1900-01-01,9999-12-31,Y
+1146,C01058,Quinn Tran,quinn.1058@example.com,smb,DE,Hamburg,2025-12-11,1900-01-01,9999-12-31,Y
+1147,C01059,Linh de Vries,linh.1059@example.com,consumer,NL,Amsterdam,2023-11-24,1900-01-01,9999-12-31,Y
+1148,C01060,Tessa Smit,tessa.1060@example.com,consumer,NL,Utrecht,2023-09-15,1900-01-01,9999-12-31,Y
+1149,C01061,Quinn Peeters,quinn.1061@example.com,smb,BE,,2023-01-28,1900-01-01,9999-12-31,Y
+1150,C01062,Bram Larsen,bram.1062@example.com,smb,NL,Rotterdam,2023-01-09,1900-01-01,9999-12-31,Y
+1151,C01063,Rosa Dubois,rosa.1063@example.com,smb,BE,Brussels,2025-05-27,1900-01-01,9999-12-31,Y
+1152,C01064,Mateo Jansen,mateo.1064@example.com,consumer,FR,Paris,2022-09-18,1900-01-01,9999-12-31,Y
+1153,C01065,Diana García,diana.1065@example.com,smb,NL,Rotterdam,2025-04-26,1900-01-01,9999-12-31,Y
+1154,C01066,Chen García,chen.1066@example.com,consumer,FR,Paris,2025-09-20,1900-01-01,2025-10-20,N
+1155,C01066,Chen García,chen.1066@example.com,enterprise,FR,Paris,2025-09-20,2025-10-20,9999-12-31,Y
+1156,C01067,Rosa Peeters,rosa.1067@example.com,consumer,FR,Lyon,2025-11-20,1900-01-01,9999-12-31,Y
+1157,C01068,Bram Jansen,bram.1068@example.com,consumer,FR,Paris,2026-04-09,1900-01-01,9999-12-31,Y
+1158,C01069,Pia García,pia.1069@example.com,consumer,VN,Ho Chi Minh City,2024-02-08,1900-01-01,9999-12-31,Y
+1159,C01070,Omar Visser,omar.1070@example.com,consumer,VN,Ha Noi,2026-05-13,1900-01-01,9999-12-31,Y
+1160,C01071,Quinn Müller,quinn.1071@example.com,consumer,DE,Hamburg,2025-01-21,1900-01-01,9999-12-31,Y
+1161,C01072,Tessa Bakker,tessa.1072@example.com,consumer,BE,Brussels,2023-02-27,1900-01-01,9999-12-31,Y
+1162,C01073,Guido Kowalski,guido.1073@example.com,smb,NL,Rotterdam,2026-02-25,1900-01-01,9999-12-31,Y
+1163,C01074,Anna Tran,anna.1074@example.com,consumer,VN,Ho Chi Minh City,2025-09-09,1900-01-01,9999-12-31,Y
+1164,C01075,Bram Müller,bram.1075@example.com,consumer,FR,Lyon,2023-10-16,1900-01-01,9999-12-31,Y
+1165,C01076,Chen Larsen,chen.1076@example.com,consumer,BE,Ghent,2024-04-10,1900-01-01,9999-12-31,Y
+1166,C01077,Bram Müller,bram.1077@example.com,consumer,NL,Utrecht,2023-07-19,1900-01-01,9999-12-31,Y
+1167,C01078,Pia Dubois,pia.1078@example.com,consumer,FR,Lyon,2025-04-16,1900-01-01,9999-12-31,Y
+1168,C01079,Karel Haddad,karel.1079@example.com,consumer,NL,Amsterdam,2023-06-26,1900-01-01,9999-12-31,Y
+1169,C01080,Karel Tran,karel.1080@example.com,consumer,NL,Utrecht,2025-05-08,1900-01-01,9999-12-31,Y
+1170,C01081,Quinn Dubois,quinn.1081@example.com,consumer,VN,Ho Chi Minh City,2022-10-25,1900-01-01,9999-12-31,Y
+1171,C01082,Quinn Tran,quinn.1082@example.com,consumer,BE,Ghent,2022-12-11,1900-01-01,9999-12-31,Y
+1172,C01083,Sven Silva,sven.1083@example.com,consumer,VN,Ha Noi,2022-10-07,1900-01-01,9999-12-31,Y
+1173,C01084,Nadia Peeters,nadia.1084@example.com,consumer,NL,Utrecht,2025-06-17,1900-01-01,9999-12-31,Y
+1174,C01085,Chen Müller,chen.1085@example.com,consumer,FR,Paris,2025-04-16,1900-01-01,9999-12-31,Y
+1175,C01086,Omar de Vries,omar.1086@example.com,consumer,DE,Berlin,2025-06-21,1900-01-01,9999-12-31,Y
+1176,C01087,Hana Bakker,hana.1087@example.com,smb,BE,Ghent,2025-08-31,1900-01-01,9999-12-31,Y
+1177,C01088,Wout Peeters,wout.1088@example.com,consumer,BE,Brussels,2026-04-04,1900-01-01,9999-12-31,Y
+1178,C01089,Quinn Dubois,quinn.1089@example.com,smb,DE,Berlin,2024-05-28,1900-01-01,9999-12-31,Y
+1179,C01090,Rosa Kowalski,rosa.1090@example.com,consumer,DE,Berlin,2026-01-17,1900-01-01,9999-12-31,Y
+1180,C01091,Yara Dubois,yara.1091@example.com,consumer,VN,Ho Chi Minh City,2025-01-16,1900-01-01,2025-06-22,N
+1181,C01091,Yara Dubois,yara.1091@example.com,enterprise,VN,Ho Chi Minh City,2025-01-16,2025-06-22,9999-12-31,Y
+1182,C01092,Julia de Vries,julia.1092@example.com,consumer,FR,Lyon,2025-07-09,1900-01-01,9999-12-31,Y
+1183,C01093,Fatima Novak,fatima.1093@example.com,consumer,DE,Hamburg,2023-02-06,1900-01-01,9999-12-31,Y
+1184,C01094,Sven Peeters,sven.1094@example.com,consumer,NL,Utrecht,2023-05-03,1900-01-01,2026-04-24,N
+1185,C01094,Sven Peeters,sven.1094@example.com,smb,NL,Utrecht,2023-05-03,2026-04-24,9999-12-31,Y
+1186,C01095,Rosa Tran,rosa.1095@example.com,smb,NL,Utrecht,2025-12-07,1900-01-01,2026-01-06,N
+1187,C01095,Rosa Tran,rosa.1095@example.com,enterprise,NL,Utrecht,2025-12-07,2026-01-06,9999-12-31,Y
+1188,C01096,Ivo Visser,ivo.1096@example.com,consumer,DE,Hamburg,2023-12-06,1900-01-01,2026-01-07,N
+1189,C01096,Ivo Visser,ivo.1096@example.com,enterprise,DE,Hamburg,2023-12-06,2026-01-07,9999-12-31,Y
+1190,C01097,Umut Dubois,umut.1097@example.com,enterprise,DE,Berlin,2025-08-03,1900-01-01,9999-12-31,Y
+1191,C01098,Wout Rossi,wout.1098@example.com,consumer,BE,Brussels,2023-11-24,1900-01-01,9999-12-31,Y
+1192,C01099,Omar García,omar.1099@example.com,consumer,VN,Ha Noi,2025-10-09,1900-01-01,2025-11-08,N
+1193,C01099,Omar García,omar.1099@example.com,smb,VN,Ha Noi,2025-10-09,2025-11-08,9999-12-31,Y
+1194,C01100,Linh Larsen,linh.1100@example.com,consumer,BE,,2024-09-21,1900-01-01,9999-12-31,Y
+1195,C01101,Vera Rossi,vera.1101@example.com,consumer,VN,Ho Chi Minh City,2026-03-24,1900-01-01,9999-12-31,Y
+1196,C01102,Guido Peeters,guido.1102@example.com,consumer,BE,Ghent,2024-06-07,1900-01-01,9999-12-31,Y
+1197,C01103,Pia Novak,pia.1103@example.com,consumer,DE,Berlin,2026-01-18,1900-01-01,9999-12-31,Y
+1198,C01104,Umut Jansen,umut.1104@example.com,smb,NL,Amsterdam,2025-05-17,1900-01-01,9999-12-31,Y
+1199,C01105,Diana Okafor,diana.1105@example.com,consumer,BE,Ghent,2024-10-28,1900-01-01,9999-12-31,Y
+1200,C01106,Bram Müller,bram.1106@example.com,consumer,BE,,2026-02-18,1900-01-01,9999-12-31,Y
+1201,C01107,Bram Visser,bram.1107@example.com,consumer,FR,Lyon,2023-10-31,1900-01-01,9999-12-31,Y
+1202,C01108,Pia Tran,pia.1108@example.com,consumer,VN,Ha Noi,2024-08-25,1900-01-01,9999-12-31,Y
+1203,C01109,Pia Larsen,pia.1109@example.com,consumer,FR,Paris,2024-02-20,1900-01-01,9999-12-31,Y
+1204,C01110,Tessa Larsen,,consumer,FR,Paris,2025-04-03,1900-01-01,9999-12-31,Y
+1205,C01111,Vera Visser,vera.1111@example.com,consumer,NL,Utrecht,2025-05-09,1900-01-01,2026-02-26,N
+1206,C01111,Vera Visser,vera.1111@example.com,enterprise,NL,Utrecht,2025-05-09,2026-02-26,9999-12-31,Y
+1207,C01112,Mateo Bakker,mateo.1112@example.com,consumer,VN,Ha Noi,2025-05-06,1900-01-01,9999-12-31,Y
+1208,C01113,Sven Jansen,sven.1113@example.com,consumer,DE,Hamburg,2024-12-26,1900-01-01,9999-12-31,Y
+1209,C01114,Bram Smit,bram.1114@example.com,consumer,DE,Hamburg,2025-10-10,1900-01-01,9999-12-31,Y
+1210,C01115,Anna Dubois,anna.1115@example.com,consumer,DE,Hamburg,2026-05-05,1900-01-01,9999-12-31,Y
+1211,C01116,Ivo Kowalski,ivo.1116@example.com,consumer,NL,,2024-06-04,1900-01-01,2025-09-04,N
+1212,C01116,Ivo Kowalski,ivo.1116@example.com,enterprise,NL,,2024-06-04,2025-09-04,9999-12-31,Y
+1213,C01117,Bram Jansen,bram.1117@example.com,smb,BE,Ghent,2023-06-26,1900-01-01,9999-12-31,Y
+1214,C01118,Chen Tran,chen.1118@example.com,consumer,BE,Brussels,2023-07-05,1900-01-01,9999-12-31,Y
+1215,C01119,Yara Novak,yara.1119@example.com,consumer,FR,Paris,2025-01-04,1900-01-01,9999-12-31,Y
+1216,C01120,Bram Nguyen,bram.1120@example.com,consumer,VN,Ho Chi Minh City,2024-12-29,1900-01-01,9999-12-31,Y
+1217,C01121,Diana Peeters,diana.1121@example.com,smb,BE,Ghent,2024-04-29,1900-01-01,9999-12-31,Y
+1218,C01122,Hana Smit,hana.1122@example.com,enterprise,DE,Berlin,2025-07-18,1900-01-01,9999-12-31,Y
+1219,C01123,Tessa Rossi,tessa.1123@example.com,consumer,NL,Rotterdam,2024-04-23,1900-01-01,9999-12-31,Y
+1220,C01124,Anna Nguyen,anna.1124@example.com,consumer,NL,Amsterdam,2024-04-24,1900-01-01,9999-12-31,Y
+1221,C01125,Sven Larsen,sven.1125@example.com,consumer,NL,Utrecht,2023-07-22,1900-01-01,9999-12-31,Y
+1222,C01126,Bram Jansen,bram.1126@example.com,consumer,NL,Rotterdam,2026-02-21,1900-01-01,9999-12-31,Y
+1223,C01127,Emre de Vries,emre.1127@example.com,enterprise,VN,Ho Chi Minh City,2022-08-24,1900-01-01,9999-12-31,Y
+1224,C01128,Wout Nguyen,wout.1128@example.com,consumer,VN,Ho Chi Minh City,2026-05-07,1900-01-01,9999-12-31,Y
+1225,C01129,Rosa Visser,rosa.1129@example.com,consumer,FR,Lyon,2025-05-16,1900-01-01,9999-12-31,Y
+1226,C01130,Guido Rossi,guido.1130@example.com,consumer,FR,Paris,2023-11-14,1900-01-01,9999-12-31,Y
+1227,C01131,Quinn de Vries,quinn.1131@example.com,consumer,BE,Brussels,2025-08-24,1900-01-01,9999-12-31,Y
+1228,C01132,Emre Kowalski,emre.1132@example.com,enterprise,VN,Ha Noi,2026-04-01,1900-01-01,9999-12-31,Y
+1229,C01133,Chen Larsen,chen.1133@example.com,smb,BE,Ghent,2025-06-05,1900-01-01,9999-12-31,Y
+1230,C01134,Ivo Tran,ivo.1134@example.com,consumer,FR,Paris,2022-09-04,1900-01-01,9999-12-31,Y
+1231,C01135,Emre Dubois,emre.1135@example.com,smb,DE,Berlin,2023-12-19,1900-01-01,2025-05-04,N
+1232,C01135,Emre Dubois,emre.1135@example.com,enterprise,DE,Berlin,2023-12-19,2025-05-04,9999-12-31,Y
+1233,C01136,Anna Müller,anna.1136@example.com,consumer,NL,Rotterdam,2025-07-23,1900-01-01,9999-12-31,Y
+1234,C01137,Diana Dubois,diana.1137@example.com,enterprise,NL,Amsterdam,2022-12-08,1900-01-01,9999-12-31,Y
+1235,C01138,Vera de Vries,vera.1138@example.com,consumer,DE,Hamburg,2022-11-28,1900-01-01,9999-12-31,Y
+1236,C01139,Linh Dubois,linh.1139@example.com,consumer,VN,Ho Chi Minh City,2025-09-06,1900-01-01,9999-12-31,Y
+1237,C01140,Nadia Rossi,nadia.1140@example.com,consumer,FR,Paris,2023-04-04,1900-01-01,9999-12-31,Y
+1238,C01141,Bram Kowalski,bram.1141@example.com,smb,VN,Ha Noi,2022-09-23,1900-01-01,9999-12-31,Y
+1239,C01142,Ivo Haddad,ivo.1142@example.com,smb,VN,Ho Chi Minh City,2025-11-27,1900-01-01,9999-12-31,Y
+1240,C01143,Ivo Jansen,ivo.1143@example.com,consumer,DE,Hamburg,2025-05-26,1900-01-01,9999-12-31,Y
+1241,C01144,Julia Dubois,julia.1144@example.com,consumer,NL,Rotterdam,2025-12-17,1900-01-01,9999-12-31,Y
+1242,C01145,Mateo Smit,mateo.1145@example.com,consumer,BE,Ghent,2025-08-13,1900-01-01,9999-12-31,Y
+1243,C01146,Linh de Vries,linh.1146@example.com,consumer,FR,Lyon,2025-05-14,1900-01-01,9999-12-31,Y
+1244,C01147,Vera Haddad,vera.1147@example.com,consumer,VN,Ha Noi,2025-12-15,1900-01-01,9999-12-31,Y
+1245,C01148,Tessa Jansen,tessa.1148@example.com,consumer,FR,Paris,2025-09-25,1900-01-01,9999-12-31,Y
+1246,C01149,Linh Nguyen,linh.1149@example.com,smb,DE,Berlin,2022-08-12,1900-01-01,9999-12-31,Y
+1247,C01150,Pia García,pia.1150@example.com,enterprise,FR,Lyon,2026-03-02,1900-01-01,9999-12-31,Y
+1248,C01151,Karel García,karel.1151@example.com,consumer,DE,Hamburg,2025-08-19,1900-01-01,9999-12-31,Y
+1249,C01152,Chen de Vries,chen.1152@example.com,consumer,NL,Rotterdam,2022-12-11,1900-01-01,9999-12-31,Y
+1250,C01153,Mateo Peeters,mateo.1153@example.com,consumer,DE,Hamburg,2023-11-23,1900-01-01,9999-12-31,Y
+1251,C01154,Nadia Nguyen,nadia.1154@example.com,consumer,BE,Brussels,2023-04-21,1900-01-01,9999-12-31,Y
+1252,C01155,Umut Peeters,umut.1155@example.com,consumer,DE,Hamburg,2024-01-10,1900-01-01,2025-03-07,N
+1253,C01155,Umut Peeters,umut.1155@example.com,smb,DE,Hamburg,2024-01-10,2025-03-07,9999-12-31,Y
+1254,C01156,Mateo Haddad,mateo.1156@example.com,consumer,NL,Utrecht,2025-11-16,1900-01-01,9999-12-31,Y
+1255,C01157,Ivo Novak,ivo.1157@example.com,consumer,DE,Berlin,2025-03-20,1900-01-01,9999-12-31,Y
+1256,C01158,Julia Müller,julia.1158@example.com,enterprise,DE,Hamburg,2022-08-28,1900-01-01,9999-12-31,Y
+1257,C01159,Anna Visser,anna.1159@example.com,consumer,BE,Ghent,2025-12-05,1900-01-01,9999-12-31,Y
+1258,C01160,Umut Larsen,umut.1160@example.com,consumer,FR,Paris,2023-11-09,1900-01-01,9999-12-31,Y
+1259,C01161,Yara Kowalski,yara.1161@example.com,consumer,NL,Utrecht,2026-03-17,1900-01-01,9999-12-31,Y
+1260,C01162,Wout Nguyen,wout.1162@example.com,consumer,NL,Amsterdam,2023-10-29,1900-01-01,9999-12-31,Y
+1261,C01163,Diana Peeters,diana.1163@example.com,consumer,FR,Paris,2023-08-17,1900-01-01,9999-12-31,Y
+1262,C01164,Emre Novak,emre.1164@example.com,consumer,NL,Utrecht,2026-03-02,1900-01-01,9999-12-31,Y
+1263,C01165,Yara Tran,yara.1165@example.com,smb,DE,Berlin,2023-10-27,1900-01-01,2025-05-23,N
+1264,C01165,Yara Tran,yara.1165@example.com,consumer,DE,Berlin,2023-10-27,2025-05-23,9999-12-31,Y
+1265,C01166,Mateo Tran,mateo.1166@example.com,consumer,VN,Ho Chi Minh City,2026-05-12,1900-01-01,9999-12-31,Y
+1266,C01167,Nadia Peeters,nadia.1167@example.com,consumer,VN,Ha Noi,2025-05-18,1900-01-01,9999-12-31,Y
+1267,C01168,Sven Peeters,sven.1168@example.com,consumer,FR,Paris,2024-03-20,1900-01-01,9999-12-31,Y
+1268,C01169,Yara Bakker,yara.1169@example.com,smb,DE,Berlin,2026-01-23,1900-01-01,9999-12-31,Y
+1269,C01170,Rosa Dubois,rosa.1170@example.com,consumer,DE,Berlin,2024-09-01,1900-01-01,9999-12-31,Y
+1270,C01171,Wout Smit,wout.1171@example.com,smb,VN,Ha Noi,2023-04-15,1900-01-01,9999-12-31,Y
+1271,C01172,Hana Smit,hana.1172@example.com,smb,BE,Brussels,2023-02-26,1900-01-01,9999-12-31,Y
+1272,C01173,Ivo Müller,ivo.1173@example.com,consumer,DE,,2024-08-31,1900-01-01,9999-12-31,Y
+1273,C01174,Julia Kowalski,julia.1174@example.com,enterprise,BE,Brussels,2024-10-30,1900-01-01,9999-12-31,Y
+1274,C01175,Ivo Müller,ivo.1175@example.com,consumer,FR,Paris,2025-07-12,1900-01-01,9999-12-31,Y
+1275,C01176,Pia Novak,pia.1176@example.com,consumer,BE,Ghent,2023-09-11,1900-01-01,9999-12-31,Y
+1276,C01177,Quinn Okafor,quinn.1177@example.com,consumer,NL,Amsterdam,2026-04-09,1900-01-01,9999-12-31,Y
+1277,C01178,Yara Kowalski,yara.1178@example.com,consumer,VN,Ho Chi Minh City,2025-01-16,1900-01-01,9999-12-31,Y
+1278,C01179,Anna Dubois,anna.1179@example.com,consumer,VN,Ho Chi Minh City,2025-08-21,1900-01-01,2026-02-11,N
+1279,C01179,Anna Dubois,anna.1179@example.com,smb,VN,Ho Chi Minh City,2025-08-21,2026-02-11,9999-12-31,Y
+1280,C01180,Julia Visser,julia.1180@example.com,consumer,NL,Amsterdam,2023-09-17,1900-01-01,9999-12-31,Y
+1281,C01181,Karel Smit,karel.1181@example.com,smb,FR,Paris,2023-11-07,1900-01-01,2025-03-03,N
+1282,C01181,Karel Smit,karel.1181@example.com,enterprise,FR,Paris,2023-11-07,2025-03-03,9999-12-31,Y
+1283,C01182,Diana de Vries,diana.1182@example.com,consumer,NL,Rotterdam,2023-12-29,1900-01-01,2025-12-21,N
+1284,C01182,Diana de Vries,diana.1182@example.com,smb,NL,Rotterdam,2023-12-29,2025-12-21,9999-12-31,Y
+1285,C01183,Hana Peeters,hana.1183@example.com,consumer,BE,Brussels,2024-11-01,1900-01-01,9999-12-31,Y
+1286,C01184,Pia Larsen,pia.1184@example.com,consumer,VN,Ha Noi,2026-03-20,1900-01-01,9999-12-31,Y
+1287,C01185,Hana García,hana.1185@example.com,consumer,NL,Amsterdam,2026-05-01,1900-01-01,9999-12-31,Y
+1288,C01186,Tessa Rossi,tessa.1186@example.com,smb,FR,,2026-04-15,1900-01-01,9999-12-31,Y
+1289,C01187,Fatima Dubois,fatima.1187@example.com,consumer,DE,Berlin,2023-02-15,1900-01-01,9999-12-31,Y
+1290,C01188,Tessa Müller,tessa.1188@example.com,consumer,NL,Amsterdam,2026-03-25,1900-01-01,9999-12-31,Y
+1291,C01189,Rosa Okafor,rosa.1189@example.com,consumer,BE,Brussels,2025-11-04,1900-01-01,9999-12-31,Y
+1292,C01190,Linh Novak,linh.1190@example.com,consumer,BE,Brussels,2023-08-10,1900-01-01,9999-12-31,Y
+1293,C01191,Wout Smit,wout.1191@example.com,consumer,VN,Ha Noi,2024-02-04,1900-01-01,9999-12-31,Y
+1294,C01192,Emre Kowalski,emre.1192@example.com,consumer,VN,Ho Chi Minh City,2025-09-10,1900-01-01,9999-12-31,Y
+1295,C01193,Wout Bakker,wout.1193@example.com,consumer,VN,Ha Noi,2023-09-19,1900-01-01,9999-12-31,Y
+1296,C01194,Hana Silva,hana.1194@example.com,consumer,DE,Berlin,2026-01-09,1900-01-01,9999-12-31,Y
+1297,C01195,Diana Nguyen,diana.1195@example.com,enterprise,VN,Ho Chi Minh City,2022-09-07,1900-01-01,9999-12-31,Y
+1298,C01196,Nadia Okafor,nadia.1196@example.com,consumer,FR,Lyon,2023-07-29,1900-01-01,9999-12-31,Y
+1299,C01197,Ivo Tran,ivo.1197@example.com,consumer,NL,Amsterdam,2022-11-23,1900-01-01,9999-12-31,Y
+1300,C01198,Chen Kowalski,chen.1198@example.com,consumer,DE,Hamburg,2026-02-23,1900-01-01,9999-12-31,Y
+1301,C01199,Emre Visser,emre.1199@example.com,consumer,FR,Lyon,2023-03-31,1900-01-01,9999-12-31,Y
+1302,C01200,Wout Nguyen,wout.1200@example.com,consumer,FR,Paris,2026-03-27,1900-01-01,9999-12-31,Y

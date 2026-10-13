@@ -1,0 +1,9 @@
+promo_code,promo_name,promo_type,discount_pct
+SPRING10,Spring 10% off,percent,10
+WELCOME5,Welcome discount,fixed,5
+FREESHIP,Free shipping,shipping,0
+BUNDLE15,Bundle deal,percent,15
+LOYAL20,Loyalty reward,percent,20
+BLACKFRI,Black Friday,percent,25
+CLEAR30,Clearance,percent,30
+VIPGIFT,VIP gift,fixed,15

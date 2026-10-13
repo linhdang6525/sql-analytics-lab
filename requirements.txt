@@ -1,0 +1,2 @@
+# PRISM — SQL for Analysts
+duckdb>=1.1          # the database; a single file, no server

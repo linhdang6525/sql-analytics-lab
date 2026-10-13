@@ -1,0 +1,15 @@
+store_sk,store_code,store_name,region,country_code,opened_date,closed_date
+1,ST01,Store 1,VN-North,VN,2021-03-03,
+2,ST02,Store 2,NL-Central,NL,2024-01-29,
+3,ST03,Store 3,NL-Central,NL,2021-04-28,
+4,ST04,Store 4,NL-South,NL,2023-06-28,
+5,ST05,Store 5,BE-North,BE,2023-04-10,
+6,ST06,Store 6,DE-North,DE,2020-03-10,
+7,ST07,Store 7,BE-Central,BE,2024-04-07,
+8,ST08,Store 8,FR-North,FR,2018-08-17,
+9,ST09,Store 9,BE-Central,BE,2023-11-03,2026-02-28
+10,ST10,Store 10,VN-North,VN,2018-11-03,
+11,ST11,Store 11,BE-Central,BE,2021-10-04,
+12,ST12,Store 12,BE-Central,BE,2024-02-18,
+13,ST13,Store 13,NL-Central,NL,2018-05-19,
+14,ST14,Store 14,VN-South,VN,2022-04-09,
