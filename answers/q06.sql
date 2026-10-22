@@ -257,6 +257,9 @@ SELECT
     SUM(total_rev_per_customer) AS total_revenue_whole_window,
     ROUND(top_decile_rev / total_revenue_whole_window * 100, 2) AS top_decile_rev_pct
 FROM decile;
+-- By customer_id (1,160 people): top decile = 14.49% of completed revenue.
+-- By customer_sk (1,258 versions, the answer key's way): 15.46%.
+-- The difference is the 98 customers who changed segment being counted twice.
 
 -- 10. For each order, show the customer's previous order date and the days between them. Then: the average 
 -- gap between orders per segment.
@@ -314,7 +317,7 @@ WITH rev_product AS (
     SELECT 
         dp.category         AS category,
         dp.product_name     AS product_name,
-        SUM(oi.line_amount) AS total_revenue_product,
+        SUM(oi.line_amount) AS total_revenue_product, -- doanh thu cho mỗi loại sản phẩm 
     FROM dim_product dp
     INNER JOIN fct_order_item oi ON dp.product_sk = oi.product_sk
     INNER JOIN fct_order fo ON oi.order_id = fo.order_id
@@ -324,12 +327,13 @@ SELECT
     category,
     product_name,
     total_revenue_product,
-    SUM(total_revenue_product) OVER (PARTITION BY category) AS overall_revenue,
+    SUM(total_revenue_product) OVER (PARTITION BY category) AS overall_revenue, -- doanh thu của whole window
     ROUND((total_revenue_product / overall_revenue * 100), 2) AS share_pct
 FROM rev_product;
 
 -- 12.Find the largest month-on-month drop in the whole window. Explain it — the answer is not a business 
 -- problem.
+-- Tìm ra tháng có chênh lệch nhất (drop = giảm)
 WITH info AS (
     SELECT 
         dd.year             AS year,
